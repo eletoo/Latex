@@ -1258,10 +1258,6 @@ INPUT ./Sections/SIGNAL/telegramVSsingal.tex
 INPUT Sections/SIGNAL/telegramVSsingal.tex
 INPUT ./Sections/SIGNAL/telegramVSsingal.tex
 INPUT Sections/SIGNAL/telegramVSsingal.tex
-INPUT texout/presentation.bbl
-INPUT texout/presentation.bbl
-INPUT texout/presentation.bbl
-INPUT texout/presentation.bbl
 OUTPUT texout/presentation.nav
 OUTPUT texout/presentation.toc
 OUTPUT texout/presentation.snm

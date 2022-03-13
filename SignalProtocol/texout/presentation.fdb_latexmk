@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex texout/presentation"] 1647183928 "texout/presentation.aux" "texout/presentation.bbl" "texout/presentation" 1647184561
+["bibtex texout/presentation"] 1647190144 "texout/presentation.aux" "texout/presentation.bbl" "texout/presentation" 1647190144
+  "Sections/texmf/bibtex/bib/references.bib" 0 -1 0 ""
   "c:/texlive/2021/texmf-dist/bibtex/bst/base/plain.bst" 1646814425 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "texmf/bibtex/bib/references.bib" 1646848090 338 dbe4ab99d95ebe5fcd47d6db12bf58d5 ""
-  "texout/presentation.aux" 1647184560 9170 e1a97dd01aeaf0560650c30971215f38 "pdflatex"
+  "texout/presentation.aux" 1647190142 9575 74e7a4c3f9cb756637bcbb7856140559 "pdflatex"
   (generated)
   "texout/presentation.bbl"
   "texout/presentation.blg"
-["pdflatex"] 1647184554 "c:/Users/Elena Tonini/OneDrive/Desktop/Latex/SignalProtocol/presentation.tex" "texout/presentation.pdf" "presentation" 1647184561
-  "Sections/E2E Encryption.tex" 1647184553 624 15ab7cb6bd7e20c73975e0f9218eec64 ""
+["pdflatex"] 1647190135 "c:/Users/Elena Tonini/OneDrive/Desktop/Latex/SignalProtocol/presentation.tex" "texout/presentation.pdf" "presentation" 1647190144
+  "Sections/E2E Encryption.tex" 1647190133 4007 077865080a1d4a561c6b3c0486bb42a6 ""
   "Sections/SIGNAL/attacks.tex" 1646831765 31 ed506b5349ca1383ed77a827eb71536d ""
   "Sections/SIGNAL/considerations.tex" 1646831787 27 a65eb00ddfa2b87311c26b158918b31b ""
   "Sections/SIGNAL/history.tex" 1646831839 2138 09b581af814a7da3dbfd9373968328c5 ""
@@ -216,12 +216,12 @@
   "c:/texlive/2021/texmf.cnf" 1646821647 713 e69b156964470283e0530f5060668171 ""
   "presentation.tex" 1646847424 399 3b90509213491aad6c58706f0741bdc3 ""
   "settings.tex" 1646846541 1574 6dc288bd47f96c2aa27900955ac0bb47 ""
-  "structure.tex" 1646848150 515 8abed14aa8ddceeafc919df75138f176 ""
-  "texout/presentation.aux" 1647184560 9170 e1a97dd01aeaf0560650c30971215f38 "pdflatex"
-  "texout/presentation.bbl" 1647183928 49 0eba253fc001332e731e8aba3f23127b "bibtex texout/presentation"
-  "texout/presentation.nav" 1647184560 3861 fb7c6a2de1f4e6f76f0e1299fe6b10b3 "pdflatex"
-  "texout/presentation.out" 1647184560 1832 fa75bbff84e6bba8a7235f2cdd7b9dcf "pdflatex"
-  "texout/presentation.toc" 1647184560 862 dc8755c746397d4dd607fb50bfbcb131 "pdflatex"
+  "structure.tex" 1647187198 528 29dc0048b91082bd9ddc80db0819acd4 ""
+  "texout/presentation.aux" 1647190142 9575 74e7a4c3f9cb756637bcbb7856140559 "pdflatex"
+  "texout/presentation.bbl" 0 -1 0 "bibtex texout/presentation"
+  "texout/presentation.nav" 1647190142 4143 8d65a8b6212c652626b10faf4d111a8e "pdflatex"
+  "texout/presentation.out" 1647190142 1833 748e21e5732a1d545dff71821d1ec9ee "pdflatex"
+  "texout/presentation.toc" 1647190142 864 b547cc7a2873dc9c139fe133df779472 "pdflatex"
   (generated)
   "texout/presentation.aux"
   "texout/presentation.log"

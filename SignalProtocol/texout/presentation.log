@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.9)  13 MAR 2022 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.9)  13 MAR 2022 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -802,17 +802,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation7}) 
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.13 \end{frame}
+l.18 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.13 \end{frame}
+l.18 \end{frame}
                 
 
-]) (./Sections/Signal Protocol.tex (./Sections/SIGNAL/history.tex
+]
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
-LaTeX Warning: Citation `tezcan2017brute' on page 9 undefined on input line 7.
+ []
 
 [9
 
@@ -820,53 +821,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation8}) 
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.7 \end{frame}
-               pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
+l.30 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.7 \end{frame}
-               
+l.30 \end{frame}
+                
 
-]
-
-LaTeX Warning: Citation `tezcan2017brute' on page 10 undefined on input line 7.
-
-[10
+] [10
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation9}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.7 \end{frame}
-               pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
+l.53 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.7 \end{frame}
-               
+l.53 \end{frame}
+                
 
-]
-
-LaTeX Warning: Citation `scarfone2008guide' on page 11 undefined on input line 18.
-
-[11
+] [11
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.18 \end{frame}
+l.70 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.18 \end{frame}
+l.70 \end{frame}
                 
 
-]
+]) (./Sections/Signal Protocol.tex (./Sections/SIGNAL/history.tex
 
-LaTeX Warning: Citation `scarfone2008guide' on page 12 undefined on input line 18.
+LaTeX Warning: Citation `tezcan2017brute' on page 12 undefined on input line 7.
 
 [12
 
@@ -874,17 +867,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation11})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.18 \end{frame}
-                pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
+l.7 \end{frame}
+               pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.18 \end{frame}
-                
+l.7 \end{frame}
+               
 
 ]
 
-LaTeX Warning: Citation `scarfone2008guide' on page 13 undefined on input line 18.
+LaTeX Warning: Citation `tezcan2017brute' on page 13 undefined on input line 7.
 
 [13
 
@@ -892,26 +885,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation12})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.18 \end{frame}
-                pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
+l.7 \end{frame}
+               pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.18 \end{frame}
-                
+l.7 \end{frame}
+               
 
 ]
 
-LaTeX Warning: Citation `garcia2008dismantling' on page 14 undefined on input line 45.
-
-
-LaTeX Warning: Citation `courtois2008algebraic' on page 14 undefined on input line 45.
-
-
-LaTeX Warning: Citation `nohl2008reverse' on page 14 undefined on input line 45.
-
-
-LaTeX Warning: Citation `courtois2008algebraic' on page 14 undefined on input line 45.
+LaTeX Warning: Citation `scarfone2008guide' on page 14 undefined on input line 18.
 
 [14
 
@@ -919,26 +903,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation13})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.45 \end{frame}
+l.18 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.45 \end{frame}
+l.18 \end{frame}
                 
 
 ]
 
-LaTeX Warning: Citation `garcia2008dismantling' on page 15 undefined on input line 45.
-
-
-LaTeX Warning: Citation `courtois2008algebraic' on page 15 undefined on input line 45.
-
-
-LaTeX Warning: Citation `nohl2008reverse' on page 15 undefined on input line 45.
-
-
-LaTeX Warning: Citation `courtois2008algebraic' on page 15 undefined on input line 45.
+LaTeX Warning: Citation `scarfone2008guide' on page 15 undefined on input line 18.
 
 [15
 
@@ -946,26 +921,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation14})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.45 \end{frame}
+l.18 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.45 \end{frame}
+l.18 \end{frame}
                 
 
 ]
 
-LaTeX Warning: Citation `garcia2008dismantling' on page 16 undefined on input line 45.
-
-
-LaTeX Warning: Citation `courtois2008algebraic' on page 16 undefined on input line 45.
-
-
-LaTeX Warning: Citation `nohl2008reverse' on page 16 undefined on input line 45.
-
-
-LaTeX Warning: Citation `courtois2008algebraic' on page 16 undefined on input line 45.
+LaTeX Warning: Citation `scarfone2008guide' on page 16 undefined on input line 18.
 
 [16
 
@@ -973,12 +939,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation15})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.45 \end{frame}
+l.18 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.45 \end{frame}
+l.18 \end{frame}
                 
 
 ]
@@ -1008,32 +974,45 @@ l.45 \end{frame}
 l.45 \end{frame}
                 
 
-]) (./Sections/SIGNAL/vulnerabilities.tex [18
+]
+
+LaTeX Warning: Citation `garcia2008dismantling' on page 18 undefined on input line 45.
+
+
+LaTeX Warning: Citation `courtois2008algebraic' on page 18 undefined on input line 45.
+
+
+LaTeX Warning: Citation `nohl2008reverse' on page 18 undefined on input line 45.
+
+
+LaTeX Warning: Citation `courtois2008algebraic' on page 18 undefined on input line 45.
+
+[18
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation17}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.8 \end{frame}
-               pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has been already used, duplicate ignored
+l.45 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.8 \end{frame}
-               
+l.45 \end{frame}
+                
 
 ]
 
-LaTeX Warning: Citation `courtois2008algebraic' on page 19 undefined on input line 27.
+LaTeX Warning: Citation `garcia2008dismantling' on page 19 undefined on input line 45.
 
 
-LaTeX Warning: Citation `garcia2008dismantling' on page 19 undefined on input line 27.
+LaTeX Warning: Citation `courtois2008algebraic' on page 19 undefined on input line 45.
 
 
-LaTeX Warning: Citation `courtois2008algebraic' on page 19 undefined on input line 27.
+LaTeX Warning: Citation `nohl2008reverse' on page 19 undefined on input line 45.
 
 
-LaTeX Warning: Citation `garcia2008dismantling' on page 19 undefined on input line 27.
+LaTeX Warning: Citation `courtois2008algebraic' on page 19 undefined on input line 45.
 
 [19
 
@@ -1041,26 +1020,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation18})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.27 \end{frame}
+l.45 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.18}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.27 \end{frame}
+l.45 \end{frame}
                 
 
 ]
 
-LaTeX Warning: Citation `courtois2008algebraic' on page 20 undefined on input line 27.
+LaTeX Warning: Citation `garcia2008dismantling' on page 20 undefined on input line 45.
 
 
-LaTeX Warning: Citation `garcia2008dismantling' on page 20 undefined on input line 27.
+LaTeX Warning: Citation `courtois2008algebraic' on page 20 undefined on input line 45.
 
 
-LaTeX Warning: Citation `courtois2008algebraic' on page 20 undefined on input line 27.
+LaTeX Warning: Citation `nohl2008reverse' on page 20 undefined on input line 45.
 
 
-LaTeX Warning: Citation `garcia2008dismantling' on page 20 undefined on input line 27.
+LaTeX Warning: Citation `courtois2008algebraic' on page 20 undefined on input line 45.
 
 [20
 
@@ -1068,40 +1047,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation19})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.27 \end{frame}
+l.45 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.19}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.27 \end{frame}
+l.45 \end{frame}
                 
 
-]
-
-LaTeX Warning: Citation `courtois2008algebraic' on page 21 undefined on input line 27.
-
-
-LaTeX Warning: Citation `garcia2008dismantling' on page 21 undefined on input line 27.
-
-
-LaTeX Warning: Citation `courtois2008algebraic' on page 21 undefined on input line 27.
-
-
-LaTeX Warning: Citation `garcia2008dismantling' on page 21 undefined on input line 27.
-
-[21
+]) (./Sections/SIGNAL/vulnerabilities.tex [21
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation20}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.27 \end{frame}
-                pdfTeX warning (ext4): destination with the same identifier (name{page.20}) has been already used, duplicate ignored
+l.8 \end{frame}
+               pdfTeX warning (ext4): destination with the same identifier (name{page.20}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.27 \end{frame}
-                
+l.8 \end{frame}
+               
 
 ]
 
@@ -1321,10 +1287,16 @@ l.27 \end{frame}
 
 ]
 
-LaTeX Warning: Citation `nohl2008reverse' on page 30 undefined on input line 38.
+LaTeX Warning: Citation `courtois2008algebraic' on page 30 undefined on input line 27.
 
 
-LaTeX Warning: Citation `garcia2008dismantling' on page 30 undefined on input line 38.
+LaTeX Warning: Citation `garcia2008dismantling' on page 30 undefined on input line 27.
+
+
+LaTeX Warning: Citation `courtois2008algebraic' on page 30 undefined on input line 27.
+
+
+LaTeX Warning: Citation `garcia2008dismantling' on page 30 undefined on input line 27.
 
 [30
 
@@ -1332,40 +1304,113 @@ pdfTeX warning (ext4): destination with the same identifier (name{Navigation29})
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.38 \end{frame}
+l.27 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.29}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.38 \end{frame}
+l.27 \end{frame}
                 
 
-] [31
+]
+
+LaTeX Warning: Citation `courtois2008algebraic' on page 31 undefined on input line 27.
+
+
+LaTeX Warning: Citation `garcia2008dismantling' on page 31 undefined on input line 27.
+
+
+LaTeX Warning: Citation `courtois2008algebraic' on page 31 undefined on input line 27.
+
+
+LaTeX Warning: Citation `garcia2008dismantling' on page 31 undefined on input line 27.
+
+[31
 
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation30}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.44 \end{frame}
+l.27 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (name{page.30}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.27 \end{frame}
+                
+
+]
+
+LaTeX Warning: Citation `courtois2008algebraic' on page 32 undefined on input line 27.
+
+
+LaTeX Warning: Citation `garcia2008dismantling' on page 32 undefined on input line 27.
+
+
+LaTeX Warning: Citation `courtois2008algebraic' on page 32 undefined on input line 27.
+
+
+LaTeX Warning: Citation `garcia2008dismantling' on page 32 undefined on input line 27.
+
+[32
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation31}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.27 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (name{page.31}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.27 \end{frame}
+                
+
+]
+
+LaTeX Warning: Citation `nohl2008reverse' on page 33 undefined on input line 38.
+
+
+LaTeX Warning: Citation `garcia2008dismantling' on page 33 undefined on input line 38.
+
+[33
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation32}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.38 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (name{page.32}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.38 \end{frame}
+                
+
+] [34
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation33}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.44 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (name{page.33}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
 l.44 \end{frame}
                 
 
-]) (./Sections/SIGNAL/attacks.tex) (./Sections/SIGNAL/considerations.tex) (./Sections/SIGNAL/whatsappVSsignal.tex) (./Sections/SIGNAL/telegramVSsingal.tex)) (texout/presentation.bbl
+]) (./Sections/SIGNAL/attacks.tex) (./Sections/SIGNAL/considerations.tex) (./Sections/SIGNAL/whatsappVSsignal.tex) (./Sections/SIGNAL/telegramVSsingal.tex))
+No file presentation.bbl.
+[35
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [32
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation31}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation34}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
 l.25 \end{frame}
-                pdfTeX warning (ext4): destination with the same identifier (name{page.31}) has been already used, duplicate ignored
+                pdfTeX warning (ext4): destination with the same identifier (name{page.34}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
@@ -1382,14 +1427,14 @@ l.25 \end{frame}
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
- [33
+ [36
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation32}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation35}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
 l.11 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier (name{page.32}) has been already used, duplicate ignored
+                   pdfTeX warning (ext4): destination with the same identifier (name{page.35}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
@@ -1401,21 +1446,21 @@ l.11 \end{document}
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: FA75BBFF84E6BBA8A7235F2CDD7B9DCF;1832.
+(rerunfilecheck)             Checksum: 748E21E5732A1D545DFF71821D1EC9EE;1833.
  ) 
 Here is how much of TeX's memory you used:
  21990 strings out of 479390
- 428307 string characters out of 5870921
- 705317 words of memory out of 5000000
- 39460 multiletter control sequences out of 15000+600000
+ 428049 string characters out of 5870921
+ 705576 words of memory out of 5000000
+ 39456 multiletter control sequences out of 15000+600000
  478716 words of font info for 62 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  99i,16n,104p,478b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb>
-Output written on texout/presentation.pdf (32 pages, 180702 bytes).
+Output written on texout/presentation.pdf (35 pages, 189743 bytes).
 PDF statistics:
- 963 PDF objects out of 1000 (max. 8388607)
- 829 compressed objects within 9 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 1033 PDF objects out of 1200 (max. 8388607)
+ 893 compressed objects within 9 object streams
+ 86 named destinations out of 1000 (max. 500000)
  147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

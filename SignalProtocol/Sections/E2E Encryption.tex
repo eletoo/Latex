@@ -1,13 +1,70 @@
 \section{Crittografia End-to-End}
 \begin{frame}
     \frametitle{End-to-End Encryption}
-    La crittografia End-to-End (E2EE) è un processo di comunicazione sicura che impedisce a terze parti di accedere ai dati trasferiti da un utente a un altro.
+    La crittografia End-to-End (E2EE) è un processo di comunicazione sicura che impedisce a terze parti di accedere ai dati trasferiti da un utente a un altro.\newline
     
+    Solamente gli utenti che sono in possesso della chiave segreta possono decifrare il testo cifrato e leggere il messaggio
+    come \textit{plaintext}.\newline
+
+    In tal modo E2EE garantisce che chi non è munito di autorizzazione non abbia la possibilità di accedere al contenuto della conversazione. 
 
     \note{
         Dati protetti da crittografia sono tali per cui solamente le persone autorizzate possono leggerne il contenuto in chiaro, mentre per 
         tutti gli altri utenti si tratta di dati presentati in un formato non leggibile.\newline
+        
         La E2EE si assicura inoltre che le comunicazioni tra due endpoint siano sicure.
     }
 
+\end{frame}
+
+\begin{frame}
+    \frametitle{End-to-End Encryption}
+        La crittografia \textbf{asimmetrica}, o \textbf{a chiave pubblica}, cifra e decifra i dati usando due chiavi distinte:
+    \begin{itemize}
+        \item La chiave pubblica è usata per cifrare un messaggio e inviarlo al proprietario della chiave pubblica
+        \item In seguito, il messaggio può essere decifrato solo utilizzando la corrispondente chiave privata.
+    \end{itemize}
+
+    Al contrario, la crittografia \textbf{simmetrica} utilizza una sola chiave privata per cifrare il \textit{plaintext} e decifrare il \textit{ciphertext}.
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{End-to-End Encryption}
+    \textbf{Problematiche}\newline
+
+    \begin{itemize}
+        \item \textbf{Endpoint security}: gli endpoint sono vulnerabili se non protetti adeguatamente
+        \item \textbf{Attacchi di tipo Man-in-the-Middle}: la conversazione può essere soggetta a \textit{eavesdropping}
+        \item \textbf{Backdoors}: se non volute, possono essere introdotte tramite attacchi cyber e poi sfruttate per violare la sicurezza del sistema
+    \end{itemize}
+
+    \note{
+        \begin{itemize}
+            \item Endpoint security: E2EE protegge i dati solo tra i due endpoint; ciò significa che i due endpoint possono essere soggetti ad attacchi;
+            \item Attacchi MITM: la conversazione può essere soggetta a \textit{eavesdropping} da parte di terzi malintenzionati in grado di intercettare i messaggi
+            e impersonare il destinatario. Essi possono, per esempio, scambiare le chiavi con il mittente, decifrare il messaggio inviato e poi inoltrarlo al vero destinatario senza farsi notare;
+            \item Backdoors: nonostante le \textit{backdoors} non siano sempre implementate volutamente, esse possono essere introdotte grazie a \textit{cyber-attacks} e poi essere utilizzate per
+            la negoziazione delle chiavi o per oltrepassare la protezione crittografica.
+        \end{itemize}
+
+        EAVESDROPPING: 
+    }
+\end{frame}
+
+\begin{frame}
+    \frametitle{End-to-End Encryption}
+    \textbf{Applicazioni}\newline
+
+    \begin{itemize}
+        \item \textbf{Comunicazioni sicure}: applicazioni di messaggistica e posta elettronica per mantenere private le conversazioni degli utenti;
+        \item \textbf{Gestione password}: in questo caso a entrambi gli endpoint della comunicazione si trova lo stesso utente, che è l'unica persona munita di chiave;
+        \item \textbf{Data storage}: nei servizi di storage in cloud può anche essere garantita E2EE \textit{in transit}, proteggendo i dati degli utenti anche dall'accesso da parte dei fornitori del servizio in cloud;
+    \end{itemize}
+
+    \note{
+        La protezione dei dati tramite \textit{encryption in transit} consiste nel cifrare i dati solo lungo il percorso su cui vengono
+        trasmessi ma non alla sorgente. In queste condizioni, colui che invia i dati ha accesso al loro contenuto, cosa che si vuole spesso evitare.
+
+    }
 \end{frame}
