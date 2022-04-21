@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: presentation.aux
+The style file: alpha.bst
+Database file #1: texmf/bibtex/bib/references.bib
+Warning--to sort, need author or key in intransitEncryption
+Warning--empty journal in greenberg
+Warning--empty author in intransitEncryption
+Warning--empty journal in intransitEncryption
+Warning--there's a number but no volume in Lumb
+Warning--empty journal in whatsappE2EE
+You've used 4 entries,
+            2543 wiz_defined-function locations,
+            579 strings with 4852 characters,
+and the built_in function-call counts, 1041 in all, are:
+= -- 98
+> -- 25
+< -- 3
++ -- 7
+- -- 6
+* -- 62
+:= -- 177
+add.period$ -- 11
+call.type$ -- 4
+change.case$ -- 19
+chr.to.int$ -- 4
+cite$ -- 11
+duplicate$ -- 55
+empty$ -- 84
+format.name$ -- 12
+if$ -- 203
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 22
+num.names$ -- 9
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 23
+quote$ -- 0
+skip$ -- 43
+stack$ -- 0
+substring$ -- 30
+swap$ -- 1
+text.length$ -- 3
+text.prefix$ -- 3
+top$ -- 0
+type$ -- 32
+warning$ -- 6
+while$ -- 6
+width$ -- 6
+write$ -- 46
+(There were 6 warnings)

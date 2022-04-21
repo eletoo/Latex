@@ -1,0 +1,22 @@
+\begin{thebibliography}{Lumer}
+
+\bibitem[Gre29]{greenberg}
+Andy Greenberg.
+\newblock Hacker lexicon: What is the signal encryption protocol?
+\newblock 2020, November 29.
+
+\bibitem[int20]{intransitEncryption}
+Cryptography concepts - fundamentals - e3kit | virgil security.
+\newblock 2020.
+
+\bibitem[Lumer]{Lumb}
+David~J Lumb.
+\newblock The story of signal.
+\newblock {\em Increment}, (7), 2018, October.
+
+\bibitem[Mar16]{whatsappE2EE}
+Moxie Marlinspike.
+\newblock Whatsapp's signal protocol integration is now complete.
+\newblock Apr. 5, 2016.
+
+\end{thebibliography}

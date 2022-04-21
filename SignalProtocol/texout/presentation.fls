@@ -1049,6 +1049,7 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
@@ -1231,6 +1232,14 @@ INPUT ./Sections/E2E Encryption.tex
 INPUT Sections/E2E Encryption.tex
 INPUT ./Sections/E2E Encryption.tex
 INPUT Sections/E2E Encryption.tex
+INPUT ./Sections/E2EE/usages.tex
+INPUT Sections/E2EE/usages.tex
+INPUT ./Sections/E2EE/usages.tex
+INPUT Sections/E2EE/usages.tex
+INPUT ./Sections/E2EE/challenges.tex
+INPUT Sections/E2EE/challenges.tex
+INPUT ./Sections/E2EE/challenges.tex
+INPUT Sections/E2EE/challenges.tex
 INPUT ./Sections/Signal Protocol.tex
 INPUT Sections/Signal Protocol.tex
 INPUT ./Sections/Signal Protocol.tex
@@ -1263,6 +1272,10 @@ INPUT ./Sections/SIGNAL_PROTOCOL/whatsappVSsignalVStelegram.tex
 INPUT Sections/SIGNAL_PROTOCOL/whatsappVSsignalVStelegram.tex
 INPUT ./Sections/SIGNAL_PROTOCOL/whatsappVSsignalVStelegram.tex
 INPUT Sections/SIGNAL_PROTOCOL/whatsappVSsignalVStelegram.tex
+INPUT texout/presentation.bbl
+INPUT texout/presentation.bbl
+INPUT texout/presentation.bbl
+INPUT texout/presentation.bbl
 OUTPUT texout/presentation.nav
 OUTPUT texout/presentation.toc
 OUTPUT texout/presentation.snm

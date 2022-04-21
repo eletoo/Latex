@@ -1,70 +1,52 @@
 \section{Crittografia End-to-End}
 \begin{frame}
     \frametitle{End-to-End Encryption}
-    La crittografia End-to-End (E2EE) è un processo di comunicazione sicura che impedisce a terze parti di accedere ai dati trasferiti da un utente a un altro.\newline
+    La crittografia End-to-End (E2EE) è un processo di comunicazione sicura che impedisce a terze parti di accedere ai dati trasferiti da un utente a un altro.\newline\pause
     
-    Solamente gli utenti che sono in possesso della chiave segreta possono decifrare il testo cifrato e leggere il messaggio
-    come \textit{plaintext}.\newline
+    Solamente gli utenti che sono in possesso della chiave segreta possono decifrare il testo cifrato e leggere il messaggio come \textit{plaintext}.\newline\pause
 
-    In tal modo E2EE garantisce che chi non è munito di autorizzazione non abbia la possibilità di accedere al contenuto della conversazione. 
+    In linea di massima E2EE garantisce che potenziali \textit{eavesdroppers} non possano accedere alle chiavi necessarie per decifrare la conversazione. 
+    \cite{greenberg}
 
     \note{
-        Dati protetti da crittografia sono tali per cui solamente le persone autorizzate possono leggerne il contenuto in chiaro, mentre per 
-        tutti gli altri utenti si tratta di dati presentati in un formato non leggibile.\newline
-        
-        La E2EE si assicura inoltre che le comunicazioni tra due endpoint siano sicure.
+        Dati protetti da crittografia sono tali per cui solamente le persone autorizzate possono leggerne il contenuto in chiaro, mentre per tutti gli altri utenti si tratta di dati presentati in un formato non leggibile.\newline
+
+        Grazie alla E2EE è possibile proteggere i dati trasmessi da terze parti malintenzionate che possono includere i provider dei servizi di telecomunicazione, gli Internet provider e utenti malevoli.\newline        
+
+        La E2EE si assicura inoltre che le comunicazioni tra due endpoint siano sicure.\newline
     }
 
 \end{frame}
 
 \begin{frame}
-    \frametitle{End-to-End Encryption}
-        La crittografia \textbf{asimmetrica}, o \textbf{a chiave pubblica}, cifra e decifra i dati usando due chiavi distinte:
-    \begin{itemize}
-        \item La chiave pubblica è usata per cifrare un messaggio e inviarlo al proprietario della chiave pubblica
-        \item In seguito, il messaggio può essere decifrato solo utilizzando la corrispondente chiave privata.
-    \end{itemize}
+    La E2EE non garantisce di per sé né la sicurezza né la privacy, in quanto i dati trasmessi potrebbero essere protetti in modo poco sicuro sui dispositivi endpoint.\newline
+    Tuttavia, l'implementazione della E2EE consente di applicare una protezione dei dati migliore della sola crittografia ``in transit''.\newline\pause
 
-    Al contrario, la crittografia \textbf{simmetrica} utilizza una sola chiave privata per cifrare il \textit{plaintext} e decifrare il \textit{ciphertext}.
+    Per molti sistemi di messaggistica i messaggi passano attraverso un intermediario che li conserva finché non vengono recuperati dal destinatario. Anche se protetti da crittografia, essi lo sono solamente in transito, quindi possono essere letti dai provider di servizi.\newline
 
-\end{frame}
-
-\begin{frame}
-    \frametitle{End-to-End Encryption}
-    \textbf{Problematiche}\newline
-
-    \begin{itemize}
-        \item \textbf{Endpoint security}: gli endpoint sono vulnerabili se non protetti adeguatamente
-        \item \textbf{Attacchi di tipo Man-in-the-Middle}: la conversazione può essere soggetta a \textit{eavesdropping}
-        \item \textbf{Backdoors}: se non volute, possono essere introdotte tramite attacchi cyber e poi sfruttate per violare la sicurezza del sistema
-    \end{itemize}
+    \cite{intransitEncryption}
 
     \note{
-        \begin{itemize}
-            \item Endpoint security: E2EE protegge i dati solo tra i due endpoint; ciò significa che i due endpoint possono essere soggetti ad attacchi;
-            \item Attacchi MITM: la conversazione può essere soggetta a \textit{eavesdropping} da parte di terzi malintenzionati in grado di intercettare i messaggi
-            e impersonare il destinatario. Essi possono, per esempio, scambiare le chiavi con il mittente, decifrare il messaggio inviato e poi inoltrarlo al vero destinatario senza farsi notare;
-            \item Backdoors: nonostante le \textit{backdoors} non siano sempre implementate volutamente, esse possono essere introdotte grazie a \textit{cyber-attacks} e poi essere utilizzate per
-            la negoziazione delle chiavi o per oltrepassare la protezione crittografica.
-        \end{itemize}
+        In questo modo è possibile monitorare il contenuto dei messaggi (per esempio in cerca di contenuti offensivi o pericolosi) ma si corre anche il rischio che utenti non autorizzati e/o malintenzionati aventi accesso allo storage dei messaggi possano fare un uso improprio dei contenuti.\newline
 
-        EAVESDROPPING: 
+        Nella crittografia ``in transit'' è possibile o salvare direttamente i messaggi decrittati oppure salvare i dati crittografati e la chiave con cui decrittarli sullo stesso database.  
     }
 \end{frame}
 
-\begin{frame}
-    \frametitle{End-to-End Encryption}
-    \textbf{Applicazioni}\newline
-
-    \begin{itemize}
-        \item \textbf{Comunicazioni sicure}: applicazioni di messaggistica e posta elettronica per mantenere private le conversazioni degli utenti;
-        \item \textbf{Gestione password}: in questo caso a entrambi gli endpoint della comunicazione si trova lo stesso utente, che è l'unica persona munita di chiave;
-        \item \textbf{Data storage}: nei servizi di storage in cloud può anche essere garantita E2EE \textit{in transit}, proteggendo i dati degli utenti anche dall'accesso da parte dei fornitori del servizio in cloud;
-    \end{itemize}
-
-    \note{
-        La protezione dei dati tramite \textit{encryption in transit} consiste nel cifrare i dati solo lungo il percorso su cui vengono
-        trasmessi ma non alla sorgente. In queste condizioni, colui che invia i dati ha accesso al loro contenuto, cosa che si vuole spesso evitare.
-
-    }
-\end{frame}
+%\begin{frame}
+%    La crittografia \textbf{asimmetrica}, o \textbf{a chiave pubblica}, cifra e decifra i dati usando due chiavi distinte:\pause
+%    \begin{itemize}
+%        \item La chiave pubblica è usata per cifrare un messaggio e inviarlo al proprietario della chiave pubblica\pause
+%        \item In seguito, il messaggio può essere decifrato solo utilizzando la corrispondente chiave privata.\pause
+%    \end{itemize}
+%
+%    Al contrario, la crittografia \textbf{simmetrica} utilizza una sola chiave privata per cifrare il \textit{plaintext} e decifrare il \textit{ciphertext}.
+%
+%    \note{
+%        I messaggi vengono crittografati dal mittente, pertanto, anche se intercettati da una terza persona, essi non le saranno visibili in \textit{plaintext} e saranno dunque conservabili solo in \textit{ciphertext}.\newline 
+%        Al contrario, il destinatario sarà in grado di ricevere i dati e decifrarli per sé.
+%    }
+%
+%\end{frame}
+\input{Sections/E2EE/usages.tex}
+\input{Sections/E2EE/challenges.tex}
