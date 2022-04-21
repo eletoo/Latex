@@ -1,0 +1,53 @@
+\subsection{L'Applicazione e il Protocollo Signal}
+
+\begin{frame}{Applicazione Signal}
+    \textbf{L'Applicazione e il Protocollo Signal}
+    \newline
+    
+    Nel 2013, dopo la fondazione di OWS, i fondatori Marlinspike e Trevor Perrin iniziarono a lavorare al \textbf{Protocollo Signal}.\newline\pause
+    
+    Esso rendeva il metodo crittografico end-to-end utilizzato nell’applicazione Signal implementabile anche da altri servizi.\newline\pause
+    
+    Ogni piattaforma di messaggistica che intraprese collaborazioni con OWS al fine di integrare il protocollo Signal al proprio interno lo implementò in modalità differenti e su scala/estensione diversa.
+
+\end{frame}
+
+\begin{frame}{Applicazione Signal}
+    Tra le più note implementazioni (parziali) del Protocollo Signal troviamo:\pause
+    \begin{itemize}
+        \item <1-> \textbf{Facebook}: introdusse la feature \textit{Secret Conversations} per gli utenti di Facebook Messenger nel luglio 2016\pause
+        \item <2-> \textbf{Allo}: rilasciata nel settembre 2016, sfruttava il Protocollo Signal se utilizzata in modalità incognito\pause
+        \item <3-> \textbf{Duo}: protezione delle videochat\pause
+        \item <4-> \textbf{Skype}: conversazioni private dal 2018\pause
+        \item <5-> \textbf{WhatsApp}: tra le maggiori applicazioni che implementano Signal è l’unica che garantisce di default la crittografia end-to-end delle conversazioni (da aprile 2016)
+    \end{itemize}
+    
+    \note{
+     \begin{itemize}
+         \item Facebook: usa Signal solo nelle Secret Conversations
+         \item Allo: applicazione mobile di messaggistica istantanea di Google, non esiste più dal 12 marzo 2019 
+         \item Duo: applicazione per videochiamate e chat mobile di Google
+         \item Whatsapp: introdusse Signal per la prima volta nel 2014 per utenti Android, estendendolo a tutti gli utenti nel 2016
+         \item Google: introduce Signal di default nell’applicazione di messaggi su Android
+     \end{itemize}
+}
+\end{frame}
+
+\begin{frame}{Applicazione Signal}
+    Ciascuna di queste \textit{features} richiede che le conversazioni intraprese siano dichiarate “private” affinché sia possibile applicare la crittografia end-to-end su tutto il contenuto che viene scambiato\newline\pause 
+
+    Inoltre, conversazioni già avvenute non possono essere protette applicando il protocollo ex post.
+
+    \note{
+        La dichiarazione delle conversazioni come “private” avviene in genere per selezione esplicita da parte dell'utente e non di default.\newline
+        WhatsApp implementa automaticamente la crittografia end-to-end sia per le chat private che per quelle di gruppo, tuttavia se si vuole verificare che le conversazioni siano private è necessario che entrambe le persone che partecipano alla conversazione selezionino la chat di interesse, clicchino sul nome del contatto, selezionino l'opzione “Crittografia” e scannerizzino il codice QR che viene presentato sul dispositivo dell'altro utente oppure confrontino i numeri a 60 cifre presentati.\newline
+    }
+\end{frame}
+
+\begin{frame}{Applicazione Signal}
+    La sicurezza garantita dall'implementazione del protocollo è relativa al fatto che tutti i prodotti OWS sono incentrati sulla privacy degli utenti, infatti:
+    \begin{itemize}
+        \item Salvano solo le informazioni strettamente necessarie\pause
+        \item Rendono impossibile a terze parti accedere ai messaggi o ai file scambiati tra gli utenti (grazie alla crittografia end-to-end)
+    \end{itemize}
+\end{frame}
