@@ -1,11 +1,10 @@
 \subsection{Problematiche}
 
-\begin{frame}
-    \frametitle{End-to-End Encryption}
-    \textbf{Problematiche}\newline
+\begin{frame}{End-to-End Encryption}
+    \framesubtitle{Problematiche}
 
     La E2EE non garantisce di per sé né la sicurezza né la privacy, in quanto i dati trasmessi potrebbero essere protetti in modo poco sicuro sui dispositivi endpoint.\newline
-    Tuttavia, l'implementazione della E2EE consente di applicare una protezione dei dati migliore della sola crittografia ``in transit''.\newline\pause
+    Tuttavia, l'implementazione della E2EE consente di applicare una protezione dei dati migliore della sola crittografia \textbf{``in transit''}.\newline\pause
 
     Per molti sistemi di messaggistica i messaggi passano attraverso un intermediario che li conserva finché non vengono recuperati dal destinatario. Anche se protetti da crittografia, essi lo sono solamente in transito, quindi possono essere letti dai provider di servizi. 
 
@@ -18,13 +17,13 @@
     }
 \end{frame}
 
-\begin{frame}
-    \frametitle{End-to-End Encryption}
+\begin{frame}{End-to-End Encryption}
+    \framesubtitle{Problematiche}
     Ulteriori problematiche: 
     \begin{itemize}
         \item \textbf{Endpoint security}: gli endpoint sono vulnerabili se non protetti adeguatamente\pause
         \item \textbf{Attacchi di tipo Man-in-the-Middle}: la conversazione può essere soggetta a \textit{eavesdropping}\pause
-        \item \textbf{Backdoors}: si tratta di metodi per bypassare l'autenticazione standard o la protezione crittografica di un dispositivo. Se non volute, possono essere introdotte tramite attacchi cyber e poi sfruttate per violare la sicurezza del sistema
+        \item \textbf{Backdoors}: metodi per bypassare l'autenticazione standard o la protezione crittografica di un dispositivo. Se non volute, possono essere introdotte tramite attacchi cyber e poi sfruttate per violare la sicurezza del sistema
     \end{itemize}
 
     \cite{greenbergE2EE}, \cite{IBM}
@@ -39,8 +38,8 @@
     }
 \end{frame}
 
-\begin{frame}
-    \frametitle{End-to-End Encryption} 
+\begin{frame}{End-to-End Encryption} 
+    \framesubtitle{Problematiche}
     \begin{itemize}
         \item \textbf{Complessità nel definire gli endpoint}: alcune implementazioni consentono di decodificare e ricodificare i dati lungo il percorso, quindi è necessario definire accuratamente gli estremi della trasmissione\pause
         \item \textbf{Privacy ``eccessiva''}: enti governativi non hanno modo di verificare la natura dei contenuti trasmessi dagli utenti, pertanto non sono in grado di prendere misure adeguate in caso di illeciti\pause

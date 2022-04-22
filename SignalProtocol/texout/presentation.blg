@@ -5,6 +5,7 @@ The style file: alpha.bst
 Database file #1: texmf/bibtex/bib/references.bib
 Warning--to sort, need author or key in IBM
 Warning--to sort, need author or key in intransitEncryption
+Warning--to sort, need author or key in signal
 Warning--empty journal in telegramE2EE
 Warning--empty journal in lavabitAndHushmail
 Warning--empty journal in greenbergE2EE
@@ -18,46 +19,49 @@ Warning--empty journal in techTarget
 Warning--there's a number but no volume in Lumb
 Warning--empty journal in whatsappE2EE
 Warning--empty journal in snowdenCase
+Warning--empty author in signal
+Warning--empty journal in signal
+Warning--empty year in signal
 Warning--empty journal in hushmail
-You've used 12 entries,
+You've used 13 entries,
             2543 wiz_defined-function locations,
-            616 strings with 5743 characters,
-and the built_in function-call counts, 3303 in all, are:
-= -- 314
-> -- 121
+            618 strings with 5769 characters,
+and the built_in function-call counts, 3512 in all, are:
+= -- 333
+> -- 122
 < -- 7
 + -- 36
 - -- 35
-* -- 196
-:= -- 565
-add.period$ -- 33
-call.type$ -- 12
-change.case$ -- 62
-chr.to.int$ -- 12
-cite$ -- 30
-duplicate$ -- 163
-empty$ -- 246
+* -- 215
+:= -- 589
+add.period$ -- 34
+call.type$ -- 13
+change.case$ -- 66
+chr.to.int$ -- 13
+cite$ -- 36
+duplicate$ -- 176
+empty$ -- 268
 format.name$ -- 52
-if$ -- 643
+if$ -- 686
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 60
+missing$ -- 13
+newline$ -- 63
 num.names$ -- 30
-pop$ -- 82
+pop$ -- 92
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 79
 quote$ -- 0
-skip$ -- 131
+skip$ -- 139
 stack$ -- 0
-substring$ -- 87
+substring$ -- 95
 swap$ -- 2
 text.length$ -- 7
 text.prefix$ -- 7
 top$ -- 0
-type$ -- 96
-warning$ -- 16
+type$ -- 104
+warning$ -- 20
 while$ -- 23
-width$ -- 16
-write$ -- 131
-(There were 16 warnings)
+width$ -- 17
+write$ -- 138
+(There were 20 warnings)

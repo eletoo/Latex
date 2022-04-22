@@ -19,7 +19,13 @@
 
 \graphicspath{{images/}}
 
-\pagenumbering{arabic}
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{3em}%
+    \raisebox{1.2pt}[1pt][1pt]{\insertframenumber}    
+}
+\setbeamercolor{footline}{fg=black}
 
 \makeatletter
     \setbeamertemplate{sidebar left}
