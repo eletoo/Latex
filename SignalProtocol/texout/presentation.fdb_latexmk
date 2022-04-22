@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex texout/presentation"] 1650620978 "texout/presentation.aux" "texout/presentation.bbl" "texout/presentation" 1650620989
+["bibtex texout/presentation"] 1650630666 "texout/presentation.aux" "texout/presentation.bbl" "texout/presentation" 1650630676
   "c:/texlive/2021/texmf-dist/bibtex/bst/base/alpha.bst" 1646818025 23907 a5f93555796fb564b924339521f10a7c ""
   "texmf/bibtex/bib/references.bib" 1650620225 3826 bc2eb8491c0b9106ee9fcf2f725f9051 ""
-  "texout/presentation.aux" 1650620987 9752 e6616fa24bcdd588038c7db81eeea9d8 "pdflatex"
+  "texout/presentation.aux" 1650630674 9752 da1f7b0b84421b56b4a1bac2704f8c06 "pdflatex"
   (generated)
   "texout/presentation.bbl"
   "texout/presentation.blg"
-["pdflatex"] 1650620979 "c:/Users/Elena Tonini/OneDrive/Desktop/Latex/SignalProtocol/presentation.tex" "texout/presentation.pdf" "presentation" 1650620989
-  "Sections/E2E Encryption.tex" 1650620895 2402 5bc17d4da485c28145c7b087b39b5464 ""
-  "Sections/E2EE/challenges.tex" 1650620955 3835 2c5066538c464e649f43432a60fa8f28 ""
+["pdflatex"] 1650630667 "c:/Users/Elena Tonini/OneDrive/Desktop/Latex/SignalProtocol/presentation.tex" "texout/presentation.pdf" "presentation" 1650630676
+  "Sections/E2E Encryption.tex" 1650629031 2435 888ffa9f41075d70d87a0c60e59347c8 ""
+  "Sections/E2EE/challenges.tex" 1650628723 3862 e79e754e84426b1f3d47dbf7d94b03d5 ""
   "Sections/E2EE/usages.tex" 1650619555 2126 2e5f1093155af481ec3b1c8767bca82e ""
   "Sections/SIGNAL_APP/app_and_protocol.tex" 1650549004 3676 ce392ee831ca3efb281a0efe54c483f8 ""
   "Sections/SIGNAL_APP/history.tex" 1650548997 1651 02899508387ff8dfc2c63105d610e902 ""
@@ -219,13 +219,13 @@
   "c:/texlive/2021/texmf.cnf" 1646825247 713 e69b156964470283e0530f5060668171 ""
   "images//security-symmetric_vs_asymmetri_encryption.png" 1650620748 28820 4b96e43a6e40735e3ac68ed0618e7108 ""
   "presentation.tex" 1646851024 399 3b90509213491aad6c58706f0741bdc3 ""
-  "settings.tex" 1650620828 1597 4c587cab35efbeb6b35e082cdc6b4815 ""
-  "structure.tex" 1650552292 519 007631ff40af8e25a708cf58074d077e ""
-  "texout/presentation.aux" 1650620987 9752 e6616fa24bcdd588038c7db81eeea9d8 "pdflatex"
-  "texout/presentation.bbl" 1650620979 1730 ef397c275837cc4f67d0589e788d1c23 "bibtex texout/presentation"
-  "texout/presentation.nav" 1650620987 4469 7e07a666fab618cf3dffea1ec2fdcf2d "pdflatex"
-  "texout/presentation.out" 1650620987 2312 5bcc30c93ca382a4216fbd916414ec9e "pdflatex"
-  "texout/presentation.toc" 1650620987 935 24cc8c69328a9bdf75936cc3e719c63f "pdflatex"
+  "settings.tex" 1650630644 1603 59ca91b810685dcdebca9fe55e9e3ff1 ""
+  "structure.tex" 1650630497 503 58b430feadf6796e715cd769d0244011 ""
+  "texout/presentation.aux" 1650630674 9752 da1f7b0b84421b56b4a1bac2704f8c06 "pdflatex"
+  "texout/presentation.bbl" 1650630667 1730 ef397c275837cc4f67d0589e788d1c23 "bibtex texout/presentation"
+  "texout/presentation.nav" 1650630674 4469 7e07a666fab618cf3dffea1ec2fdcf2d "pdflatex"
+  "texout/presentation.out" 1650630674 2312 5bcc30c93ca382a4216fbd916414ec9e "pdflatex"
+  "texout/presentation.toc" 1650630674 935 24cc8c69328a9bdf75936cc3e719c63f "pdflatex"
   (generated)
   "texout/presentation.aux"
   "texout/presentation.log"

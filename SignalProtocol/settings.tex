@@ -19,6 +19,8 @@
 
 \graphicspath{{images/}}
 
+\pagenumbering{arabic}
+
 \makeatletter
     \setbeamertemplate{sidebar left}
     {
@@ -31,7 +33,7 @@
         \else%
             \usebeamercolor{normal text}%
             \llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
-            \vskip2pt%
+            \vskip1pt%
         \fi%
     }%
 
@@ -39,14 +41,13 @@
         {%
             \vfill%
             \llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
-            \vskip2pt
+            \vskip1pt
         }
     \fi
 
     \setbeamertemplate{section in sidebar}%{sidebar theme}
     {%
     \vbox{%
-        \vskip1ex%
         \beamer@sidebarformat{3pt}{section in sidebar}{\insertsectionheadnumber~\insertsectionhead}%
     }%
     }
