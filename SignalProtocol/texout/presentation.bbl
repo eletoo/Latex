@@ -1,13 +1,43 @@
 \begin{thebibliography}{Lumer}
 
+\bibitem[EPP 1]{telegramE2EE}
+CPJ~Middle East, North~Africa Program, and CPJ~Technology Program.
+\newblock Why telegram's security flaws may put iran's journalists at risk -
+  committee to protect journalists.
+\newblock 2016, May 1.
+
+\bibitem[GM13]{Snowden}
+Barton Gellman and Jerry Markon.
+\newblock Edward snowden says motive behind leaks was to expose ‘surveillance
+  state’.
+\newblock {\em The Washington Post}, June 10, 2013.
+
+\bibitem[Gra 7]{lavabitAndHushmail}
+Yael Grauer.
+\newblock Mr. robot uses protonmail, but it still isn't fully secure.
+\newblock 2015, October 7.
+
+\bibitem[Gre15]{greenbergE2EE}
+Andy Greenberg.
+\newblock Hacker lexicon: What is end-to-end encryption?
+\newblock 2014, November 15.
+
 \bibitem[Gre29]{greenberg}
 Andy Greenberg.
 \newblock Hacker lexicon: What is the signal encryption protocol?
 \newblock 2020, November 29.
 
+\bibitem[IBM]{IBM}
+Cos'è la e2ee (end-to-end encryption)?
+
 \bibitem[int20]{intransitEncryption}
 Cryptography concepts - fundamentals - e3kit | virgil security.
 \newblock 2020.
+
+\bibitem[LB21]{techTarget}
+Ben Lutkevich and Madelyn Bacon.
+\newblock end-to-end encryption (e2ee).
+\newblock June 2021.
 
 \bibitem[Lumer]{Lumb}
 David~J Lumb.
@@ -18,5 +48,15 @@ David~J Lumb.
 Moxie Marlinspike.
 \newblock Whatsapp's signal protocol integration is now complete.
 \newblock Apr. 5, 2016.
+
+\bibitem[Pou16]{snowdenCase}
+K~Poulsen.
+\newblock Snowden's email provider loses appeal over encryption keys.
+\newblock 2014, April 16.
+
+\bibitem[Sin 7]{hushmail}
+Ryan Singel.
+\newblock Encrypted e-mail company hushmail spills to feds.
+\newblock 2007, November 7.
 
 \end{thebibliography}

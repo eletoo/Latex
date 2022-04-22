@@ -6,7 +6,7 @@
     Solamente gli utenti che sono in possesso della chiave segreta possono decifrare il testo cifrato e leggere il messaggio come \textit{plaintext}.\newline\pause
 
     In linea di massima E2EE garantisce che potenziali \textit{eavesdroppers} non possano accedere alle chiavi necessarie per decifrare la conversazione. 
-    \cite{greenberg}
+    \cite{greenbergE2EE}
 
     \note{
         Dati protetti da crittografia sono tali per cui solamente le persone autorizzate possono leggerne il contenuto in chiaro, mentre per tutti gli altri utenti si tratta di dati presentati in un formato non leggibile.\newline
@@ -19,34 +19,25 @@
 \end{frame}
 
 \begin{frame}
-    La E2EE non garantisce di per sé né la sicurezza né la privacy, in quanto i dati trasmessi potrebbero essere protetti in modo poco sicuro sui dispositivi endpoint.\newline
-    Tuttavia, l'implementazione della E2EE consente di applicare una protezione dei dati migliore della sola crittografia ``in transit''.\newline\pause
+    E2EE si basa sulla crittografia \textit{asimmetrica}.\newline
+    La crittografia \textbf{asimmetrica}, o \textbf{a chiave pubblica}, cifra e decifra i dati usando due chiavi distinte:\pause
+    \begin{itemize}
+        \item La chiave pubblica è usata per cifrare un messaggio e inviarlo al proprietario della chiave pubblica\pause
+        \item In seguito, il messaggio può essere decifrato solo utilizzando la corrispondente chiave privata.\pause
+    \end{itemize}
 
-    Per molti sistemi di messaggistica i messaggi passano attraverso un intermediario che li conserva finché non vengono recuperati dal destinatario. Anche se protetti da crittografia, essi lo sono solamente in transito, quindi possono essere letti dai provider di servizi.\newline
-
-    \cite{intransitEncryption}
+    Al contrario, la crittografia \textbf{simmetrica} utilizza una sola chiave privata per cifrare il \textit{plaintext} e decifrare il \textit{ciphertext}.
 
     \note{
-        In questo modo è possibile monitorare il contenuto dei messaggi (per esempio in cerca di contenuti offensivi o pericolosi) ma si corre anche il rischio che utenti non autorizzati e/o malintenzionati aventi accesso allo storage dei messaggi possano fare un uso improprio dei contenuti.\newline
-
-        Nella crittografia ``in transit'' è possibile o salvare direttamente i messaggi decrittati oppure salvare i dati crittografati e la chiave con cui decrittarli sullo stesso database.  
+        I messaggi vengono crittografati dal mittente, pertanto, anche se intercettati da una terza persona, essi non le saranno visibili in \textit{plaintext} e saranno dunque conservabili solo in \textit{ciphertext}.\newline 
+        Al contrario, il destinatario sarà in grado di ricevere i dati e decifrarli per sé.
     }
+
 \end{frame}
 
-%\begin{frame}
-%    La crittografia \textbf{asimmetrica}, o \textbf{a chiave pubblica}, cifra e decifra i dati usando due chiavi distinte:\pause
-%    \begin{itemize}
-%        \item La chiave pubblica è usata per cifrare un messaggio e inviarlo al proprietario della chiave pubblica\pause
-%        \item In seguito, il messaggio può essere decifrato solo utilizzando la corrispondente chiave privata.\pause
-%    \end{itemize}
-%
-%    Al contrario, la crittografia \textbf{simmetrica} utilizza una sola chiave privata per cifrare il \textit{plaintext} e decifrare il \textit{ciphertext}.
-%
-%    \note{
-%        I messaggi vengono crittografati dal mittente, pertanto, anche se intercettati da una terza persona, essi non le saranno visibili in \textit{plaintext} e saranno dunque conservabili solo in \textit{ciphertext}.\newline 
-%        Al contrario, il destinatario sarà in grado di ricevere i dati e decifrarli per sé.
-%    }
-%
-%\end{frame}
+\begin{frame}
+    \includegraphics{security-symmetric_vs_asymmetri_encryption.png}   
+\end{frame}
+
 \input{Sections/E2EE/usages.tex}
 \input{Sections/E2EE/challenges.tex}

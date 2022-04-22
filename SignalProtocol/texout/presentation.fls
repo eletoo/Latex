@@ -1232,6 +1232,11 @@ INPUT ./Sections/E2E Encryption.tex
 INPUT Sections/E2E Encryption.tex
 INPUT ./Sections/E2E Encryption.tex
 INPUT Sections/E2E Encryption.tex
+INPUT ./images//security-symmetric_vs_asymmetri_encryption.png
+INPUT ./images//security-symmetric_vs_asymmetri_encryption.png
+INPUT images//security-symmetric_vs_asymmetri_encryption.png
+INPUT ./images//security-symmetric_vs_asymmetri_encryption.png
+INPUT ./images//security-symmetric_vs_asymmetri_encryption.png
 INPUT ./Sections/E2EE/usages.tex
 INPUT Sections/E2EE/usages.tex
 INPUT ./Sections/E2EE/usages.tex

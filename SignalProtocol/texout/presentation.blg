@@ -3,51 +3,61 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: presentation.aux
 The style file: alpha.bst
 Database file #1: texmf/bibtex/bib/references.bib
+Warning--to sort, need author or key in IBM
 Warning--to sort, need author or key in intransitEncryption
+Warning--empty journal in telegramE2EE
+Warning--empty journal in lavabitAndHushmail
+Warning--empty journal in greenbergE2EE
 Warning--empty journal in greenberg
+Warning--empty author in IBM
+Warning--empty journal in IBM
+Warning--empty year in IBM
 Warning--empty author in intransitEncryption
 Warning--empty journal in intransitEncryption
+Warning--empty journal in techTarget
 Warning--there's a number but no volume in Lumb
 Warning--empty journal in whatsappE2EE
-You've used 4 entries,
+Warning--empty journal in snowdenCase
+Warning--empty journal in hushmail
+You've used 12 entries,
             2543 wiz_defined-function locations,
-            579 strings with 4852 characters,
-and the built_in function-call counts, 1041 in all, are:
-= -- 98
-> -- 25
-< -- 3
-+ -- 7
-- -- 6
-* -- 62
-:= -- 177
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 19
-chr.to.int$ -- 4
-cite$ -- 11
-duplicate$ -- 55
-empty$ -- 84
-format.name$ -- 12
-if$ -- 203
+            616 strings with 5743 characters,
+and the built_in function-call counts, 3303 in all, are:
+= -- 314
+> -- 121
+< -- 7
++ -- 36
+- -- 35
+* -- 196
+:= -- 565
+add.period$ -- 33
+call.type$ -- 12
+change.case$ -- 62
+chr.to.int$ -- 12
+cite$ -- 30
+duplicate$ -- 163
+empty$ -- 246
+format.name$ -- 52
+if$ -- 643
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 22
-num.names$ -- 9
-pop$ -- 24
+missing$ -- 12
+newline$ -- 60
+num.names$ -- 30
+pop$ -- 82
 preamble$ -- 1
-purify$ -- 23
+purify$ -- 74
 quote$ -- 0
-skip$ -- 43
+skip$ -- 131
 stack$ -- 0
-substring$ -- 30
-swap$ -- 1
-text.length$ -- 3
-text.prefix$ -- 3
+substring$ -- 87
+swap$ -- 2
+text.length$ -- 7
+text.prefix$ -- 7
 top$ -- 0
-type$ -- 32
-warning$ -- 6
-while$ -- 6
-width$ -- 6
-write$ -- 46
-(There were 6 warnings)
+type$ -- 96
+warning$ -- 16
+while$ -- 23
+width$ -- 16
+write$ -- 131
+(There were 16 warnings)

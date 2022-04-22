@@ -3,14 +3,14 @@
 \beamer@subsectionintoc {2}{1}{Storia dell'Applicazione}{4}{0}{2}
 \beamer@subsectionintoc {2}{2}{L'Applicazione e il Protocollo Signal}{9}{0}{2}
 \beamer@sectionintoc {3}{Crittografia End-to-End}{22}{0}{3}
-\beamer@subsectionintoc {3}{1}{Applicazioni}{27}{0}{3}
-\beamer@subsectionintoc {3}{2}{Problematiche}{28}{0}{3}
-\beamer@sectionintoc {4}{Signal Protocol}{29}{0}{4}
-\beamer@subsectionintoc {4}{1}{Storia}{29}{0}{4}
-\beamer@subsectionintoc {4}{2}{Vulnerabilità}{29}{0}{4}
-\beamer@subsectionintoc {4}{3}{Attacchi possibili}{29}{0}{4}
-\beamer@subsectionintoc {4}{4}{Considerazioni}{29}{0}{4}
-\beamer@subsectionintoc {4}{5}{WhatsApp VS Signal}{29}{0}{4}
-\beamer@subsectionintoc {4}{6}{Telegram VS Signal}{29}{0}{4}
-\beamer@subsectionintoc {4}{7}{WhatsApp VS Signal VS Telegram}{29}{0}{4}
-\beamer@sectionintoc {5}{Bibliografia}{29}{0}{5}
+\beamer@subsectionintoc {3}{1}{Applicazioni}{30}{0}{3}
+\beamer@subsectionintoc {3}{2}{Problematiche}{33}{0}{3}
+\beamer@sectionintoc {4}{Signal Protocol}{42}{0}{4}
+\beamer@subsectionintoc {4}{1}{Storia}{42}{0}{4}
+\beamer@subsectionintoc {4}{2}{Vulnerabilità}{42}{0}{4}
+\beamer@subsectionintoc {4}{3}{Attacchi possibili}{42}{0}{4}
+\beamer@subsectionintoc {4}{4}{Considerazioni}{42}{0}{4}
+\beamer@subsectionintoc {4}{5}{WhatsApp VS Signal}{42}{0}{4}
+\beamer@subsectionintoc {4}{6}{Telegram VS Signal}{42}{0}{4}
+\beamer@subsectionintoc {4}{7}{WhatsApp VS Signal VS Telegram}{42}{0}{4}
+\beamer@sectionintoc {5}{Bibliografia}{42}{0}{5}
