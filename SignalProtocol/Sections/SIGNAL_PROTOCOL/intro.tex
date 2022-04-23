@@ -1,12 +1,12 @@
 \subsection{Il protocollo}
 
-\begin{frame}
-    \frametitle{Signal Protocol}
+\begin{frame}{Signal Protocol}
+    \framesubtitle{Il protocollo}
     Il protocollo Signal fornisce crittografia end-to-end a sistemi di messaggistica istantanea e di chiamate vocali, combinando l'algoritmo \textbf{``Double Ratchet''}, pre-chiavi e un triplo handshake Elliptic-curve Diffie–Hellman (3-DH). 
 \end{frame}
 
-\begin{frame}
-    \frametitle{Signal Protocol}
+\begin{frame}{Signal Protocol}
+    \framesubtitle{Il protocollo}
     Le specifiche di riferimento sono infatti: \cite{signal}
     \begin{itemize}
         \item \textbf{XEdDSA e VXEdDSA}: algoritmi per la creazione e verifica di \textit{signatures} compatibili con EdDSA utilizzando formati di chiavi pubbliche e private inizialmente definiti per le funzioni X25519 e X448 di Diffie-Hellman su curve ellittiche. L'algoritmo VXEdDSA estende XEdDSA rendendolo verificabile.\pause
@@ -16,14 +16,16 @@
     \end{itemize}
     
     \note{
+        %analizzati meglio più avanti, forse si possono togliere queste note
         \begin{itemize}
             \item Double Ratchet: le due parti derivano nuove chiavi per ogni messaggio in modo tale che chiavi usate in precedenza non possano essere ricavate dalle chiavi successive. 
             \item X3DH: stabilisce una chiave segreta condivisa da due parti che si autenticano a vicenda basandosi su chiavi pubbliche. X3DH fornisce \textit{forward secrecy} e \textit{cryptographic deniability}
         \end{itemize}   
         
-        \textit{Forward secrecy}: un sistema di crittografia possiede la proprietà di forward secrecy se l'analisi in \textit{plaintext} dei dati scambiati durante la fase di negoziazione delle chiavi durante l'inizializzazione della sessione di comunicazione non rivela la chiave utilizzata per cifrare il resto della sessione.\newline Si ottiene generando nuove chiavi di sessione per ogni messaggio e assicura che i messaggi scambiati in passato non siano decifrabili ma che al più il messaggio corrente possa essere compromesso.\newline
+        \textit{Forward secrecy}: un sistema di crittografia possiede la proprietà di forward secrecy se l'analisi in \textit{plaintext} dei dati scambiati durante la fase di negoziazione delle chiavi durante l'inizializzazione della sessione di comunicazione non rivela la chiave utilizzata per cifrare il resto della sessione.\\Si ottiene generando nuove chiavi di sessione per ogni messaggio e assicura che i messaggi scambiati in passato non siano decifrabili ma che al più il messaggio corrente possa essere compromesso.\newline
         \textit{Cryptographic deniability}: l'esistenza di un file cifrato o di un messaggio è rinnegabile, nel senso che un altro utente non può dimostrare che i dati in \textit{plaintext} esistono. Gli utenti possono negare che dei dati siano cifrati o anche negare di essere in grado di decifrarli, indipendentemente dal fatto che ciò sia vero o meno.
     }
 \end{frame}
 
-\input{Sections/SIGNAL_PROTOCOL/baseProtocols.tex}
+\input{Sections/SIGNAL_PROTOCOL/working phases.tex}
+\input{Sections/SIGNAL_PROTOCOL/baseAlgorithms.tex}

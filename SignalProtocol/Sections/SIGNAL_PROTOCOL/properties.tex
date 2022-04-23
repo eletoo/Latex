@@ -1,1 +1,38 @@
 \subsection{Proprietà}
+
+\begin{frame}{Signal Protocol}
+    \framesubtitle{Proprietà}
+    Tradizionalmente facciamo riferimento a tre proprietà come requisiti principali in ambito crittografico:
+    \begin{itemize}
+        \item \textbf{Confidenzialità}
+        \item \textbf{Integrità}
+        \item \textbf{Autenticità}
+    \end{itemize}\pause
+
+    Le proprietà CIA spesso vengono accompagnate dalla \textbf{non ripudiabilità}
+
+    \note{
+        \begin{itemize}
+            \item \textbf{Confidenzialità}: dati trasmessi non vengono diffusi a terzi non coinvolti nella conversazione
+            \item \textbf{Integrità}: dati trasmessi non danneggiati e/o dispersi
+            \item \textbf{Autenticità}: possesso di una chiave da parte di due persone al fine di riconoscere e verificare l'identità dell'altro
+            \item \textbf{Non ripudiabilità}: non deve essere possibile negare per es. la propria firma a un documento, per questo spesso è implementata tramite firme digitali
+        \end{itemize}
+    }
+\end{frame}
+
+\begin{frame}{Signal Protocol}
+    \framesubtitle{Proprietà}
+    Ulteriori proprietà spesso richieste sono:
+    \begin{itemize}
+        \item \textbf{Forward Secrecy}: se una chiave è compromessa solo un messaggio è compromesso e non lo sono i precedenti \pause
+        \item \textbf{Future Secrecy}: se una chiave è compromessa solo un messaggio è compromesso e non lo sono i successivi \pause
+        \item \textbf{Cryptographic Deniability}: l'esistenza di un file cifrato o di un messaggio è rinnegabile, nel senso che un altro utente non può dimostrare che i dati in \textit{plaintext} esistono. Gli utenti possono negare che dei dati siano cifrati o anche negare di essere in grado di decifrarli, indipendentemente dal fatto che ciò sia vero o meno.
+    \end{itemize}
+
+    \note{
+        Cryptographic deniability in genere è più richiesta nelle applicazioni di messaggistica 
+    }
+\end{frame}
+
+%potrebbero non essere finite qui le proprietà richieste specificamente a Signal!!!
