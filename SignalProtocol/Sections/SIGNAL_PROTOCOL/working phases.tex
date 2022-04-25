@@ -5,8 +5,8 @@
         \item KEY AGREEMENT: Alice riceve le chiavi pubbliche di Bob dal server e le usa, insieme alle proprie chiavi private, per generare una chiave segreta condivisa. Invia a Bob un messaggio criptato con questa chiave. Bob, ricevutolo, recupera le chiavi pubbliche di Alice dal server e calcola la stessa chiave segreta condivisa. La negoziazione delle chiavi avviene tramite X3DH\pause
         \item CONVERSATION: Alice e Bob possiedono la chiave segreta condivisa e possono conversare.
                             \begin{itemize}
-                                \item Symmetric ratchet phase
                                 \item DH ratchet phase
+                                \item Symmetric ratchet phase                                
                             \end{itemize}
     \end{itemize}
 
@@ -16,6 +16,9 @@
             \item KEY AGREEMENT
             \item CONVERSATION 
         \end{itemize}
+
+        N.B. Symmetric ratchet phase e DH ratchet phase verranno meglio analizzati più avanti nel parlare dell'algoritmo Double Ratchet. 
+        Ad ogni modo, a livello generale, la loro combinazione permette di generare una nuova chiave. 
     }
 \end{frame}
 

@@ -1,0 +1,44 @@
+\subsection{Difetti di progettazione}
+
+\begin{frame}{Difetti di progettazione}
+    \framesubtitle{Frosch analysis \cite{7467371}}
+    \begin{itemize}
+        \item \textit{Export function} [fixed]: la funzione esportava la password necessaria per inviare le \textit{one-time pre-keys} al server in \textit{plaintext} su dispositivi Android
+        \item \textit{Vulnerabilità a UKS - Unknown key-share attack}
+    \end{itemize}
+
+    \note{
+        I difetti di implementazione individuati in questo paper sono stati ricavati da un'analisi di X3DH e di Double Ratchet separatamente, ma non da un'analisi dell'interazione dei due algoritmi come invece avviene nel protocollo Signal.\newline
+
+        UKS\\
+        Esempio: \\Bob sa che Charlie lo inviterà a una festa. Per fare uno scherzo a Charlie, Bob sostituisce la propria chiave con quella di Dave.\\
+        Quando Charlie invita Bob alla festa, Bob inoltrerà il messaggio a Dave.\\
+        Dal punto di vista di Dave, sembrerà che Charlie abbia inviato il messaggio.\\
+        Charlie penserà di aver invitato Bob, ma avrà in effetti invitato Dave.
+    }
+\end{frame}
+
+\begin{frame}{Difetti di progettazione}
+    \framesubtitle{Cohn-Gordon analysis \cite{7961996}}
+
+    L'analisi effettuata è valida presupponendo che tutte le KDF si comportino come oracoli che restituiscono un output simile a un output casuale.\newline\pause
+
+    Definiamo questa condizione come \textit{random oracle model}.\newline
+
+    \note{
+        Il paper \cite{7961996} è il primo studio scientifico a riportare un'analisi formale dell'interazione tra X3DH e Double Ratchet.
+    }
+\end{frame}
+
+\begin{frame}{Difetti di progettazione}
+    \framesubtitle{Cohn-Gordon analysis \cite{7961996}}
+    
+    L'attacco UKS individuato in \cite{7467371} non è valido in questo modello perché esso, come in effetti anche il protocollo Signal, non differenzia gli identificatori di sessione (i.e. l'ID della sessione Alice-Bob è lo stesso ID della sessione Alice-Charlie). \linebreak\pause
+
+    Non sono stati individuati altri rilevanti difetti di progettazione che generino punti di debolezza nel protocollo.
+
+    \note{
+        UKS è un attacco prevenibile a livello di applicazione (introducendo degli identificativi per gli utenti, e.g. il numero di telefono).\\
+        N.B. Gli attacchi possono variare a seconda dell'implementazione fornita del protocollo, ma il protocollo in sé non presenta difetti rilevanti.
+    }
+\end{frame}

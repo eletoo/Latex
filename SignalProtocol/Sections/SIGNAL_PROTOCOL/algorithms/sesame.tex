@@ -1,4 +1,42 @@
 \begin{frame}{Signal Protocol}
     \framesubtitle{Il protocollo: Sesame}
-    
+
+    L'algoritmo \textbf{Sesame} gestisce la creazione, eliminazione e utilizzo delle sessioni di comunicazione.\newline\pause
+    Ogni dispositivo degli utenti deve tenere traccia di una sessione \textit{attiva} per ogni altro dispositivo con cui sta comunicando e utilizzare quella sessione quando comunica con esso.
+    Quando si riceve un messaggio su una sessione \textit{inattiva}, essa diventa \textit{attiva}.\pause\newline
+    In questo modo ogni dispositivo utilizza una sola sessione per ogni altro dispositivo remoto con cui comunica. 
+    \cite{sesame}
+
+    \note{
+        Problemi che si possono generare:
+        \begin{itemize}
+            \item Alice e Bob possono avere ognuno più dispositivi quindi l'invio di un messaggio da parte di Alice richiede di inviarne una copia a tutti i dispositivi di Bob e a tutti i dispositivi di Alice per conoscenza.
+            \item Alice e Bob possono aggiungere o rimuovere dispositivi, iniziando o terminando delle sessioni.
+            \item Alice e Bob possono iniziare una nuova sessione allo stesso tempo, così che si ottengano due sessioni. Per un funzionamento ottimale del Double Ratchet Alice e Bob devono usare la stessa sessione, quindi devono concordare su quella da utilizzare.
+            \item Alice può resettare lo stato della sessione sul suo dispositivo o impostarla tramite backup, richiedendo a Bob di concordare nuovamente sulla sessione da utilizzare.
+        \end{itemize}
+    }
+\end{frame}
+
+\begin{frame}{Signal Protocol}
+    \framesubtitle{Il protocollo: Sesame}
+    Sesame è stato progettato per l'uso attraverso sessioni Double Ratchet create attraverso scambio di chiavi X3DH.
+
+    \begin{itemize}
+        \item I dispositivi comunicano al server le proprie \textit{one-time pre keys}, \textit{signed pre keys} e \textit{identity public key}.\pause
+        \item Il dispositivo mittente recupera dal server la \textit{identity public key} del dispositivo destinatario, \textit{signed pre keys} e una \textit{one-time pre key} se disponibile.\pause
+        \item X3DH usa queste chiavi per creare sia una chiave segreta che apre una sessione Double Ratchet sia un messaggio iniziale X3DH.
+    \end{itemize}    
+
+\end{frame}
+
+\begin{frame}{Signal Protocol}
+    \framesubtitle{Il protocollo: Sesame}
+    \begin{itemize}        
+        \item Il messaggio iniziale X3DH è aggiunto a ogni messaggio di apertura di sessione, in modo che il destinatario lo usi per creare una sessione Double Ratchet corrispondente.\pause
+        \item Ricevuto il messaggio di conferma di apertura della sessione il mittente smette di inviare il messaggio iniziale X3DH. \pause
+        \item I dispositivi comunicano solo con Double Ratchet.
+    \end{itemize}
+
+    \cite{sesame}, \cite{VanDam}
 \end{frame}

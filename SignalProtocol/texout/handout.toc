@@ -8,7 +8,7 @@
 \beamer@sectionintoc {4}{Signal Protocol}{20}{0}{4}
 \beamer@subsectionintoc {4}{1}{Proprietà}{21}{0}{4}
 \beamer@subsectionintoc {4}{2}{Il protocollo}{23}{0}{4}
-\beamer@subsectionintoc {4}{3}{Attacchi possibili}{34}{0}{4}
-\beamer@subsectionintoc {4}{4}{Considerazioni}{34}{0}{4}
-\beamer@subsectionintoc {4}{5}{WhatsApp VS Signal VS Telegram}{35}{0}{4}
-\beamer@sectionintoc {5}{Bibliografia}{35}{0}{5}
+\beamer@subsectionintoc {4}{3}{Difetti di progettazione}{39}{0}{4}
+\beamer@subsectionintoc {4}{4}{Considerazioni}{42}{0}{4}
+\beamer@subsectionintoc {4}{5}{WhatsApp VS Signal VS Telegram}{43}{0}{4}
+\beamer@sectionintoc {5}{Bibliografia}{43}{0}{5}

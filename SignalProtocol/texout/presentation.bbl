@@ -1,4 +1,12 @@
-\begin{thebibliography}{Lumer}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{CGCD{\etalchar{+}}17}
+
+\bibitem[CGCD{\etalchar{+}}17]{7961996}
+Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt, and Douglas
+  Stebila.
+\newblock A formal security analysis of the signal messaging protocol.
+\newblock In {\em 2017 IEEE European Symposium on Security and Privacy (EuroS
+  P)}, pages 451--466, 2017.
 
 \bibitem[DH76]{diffiehellman}
 W~Diffie and M~Hellman.
@@ -11,6 +19,13 @@ CPJ~Middle East, North~Africa Program, and CPJ~Technology Program.
 \newblock Why telegram's security flaws may put iran's journalists at risk -
   committee to protect journalists.
 \newblock 2016, May 1.
+
+\bibitem[FMB{\etalchar{+}}16]{7467371}
+Tilman Frosch, Christian Mainka, Christoph Bader, Florian Bergsma, Jörg
+  Schwenk, and Thorsten Holz.
+\newblock How secure is textsecure?
+\newblock In {\em 2016 IEEE European Symposium on Security and Privacy (EuroS
+  P)}, pages 457--472, 2016.
 
 \bibitem[GM13]{Snowden}
 Barton Gellman and Jerry Markon.
@@ -45,6 +60,11 @@ B~Jacobs and J~Daemen.
 \newblock Computer security: Public key crypto.
 \newblock 2016.
 
+\bibitem[KE10]{KDF}
+Hugo Krawczyk and Pasi Eronen.
+\newblock Hmac-based extract-and-expand key derivation function (hkdf)’.
+\newblock 2010.
+
 \bibitem[LB21]{techTarget}
 Ben Lutkevich and Madelyn Bacon.
 \newblock end-to-end encryption (e2ee).
@@ -60,10 +80,26 @@ Moxie Marlinspike.
 \newblock Whatsapp's signal protocol integration is now complete.
 \newblock Apr. 5, 2016.
 
-\bibitem[MP16]{X3DH}
+\bibitem[MP16a]{doubleratchet}
+Moxie Marlinspike and Trevor Perrin.
+\newblock The double ratchet algorithm.
+\newblock Technical report, Open Whisper Systems, 2016.
+
+\bibitem[MP16b]{X3DH}
 Moxie Marlinspike and Trevor Perrin.
 \newblock The x3dh key agreement protocol.
 \newblock Technical report, Open Whisper Systems, 2016.
+
+\bibitem[MP17]{sesame}
+Moxie Marlinspike and Trevor Perrin.
+\newblock The sesame algorithm: Session management for asynchronous message
+  encryption.
+\newblock Technical report, Open Whisper Systems, 2017.
+
+\bibitem[Pou]{doubleratchetVid}
+Mike Pound.
+\newblock Double ratchet messaging encryption - computerphile.
+\newblock Video.
 
 \bibitem[Pou16]{snowdenCase}
 K~Poulsen.
