@@ -17,8 +17,7 @@
             \item CONVERSATION 
         \end{itemize}
 
-        N.B. Symmetric ratchet phase e DH ratchet phase verranno meglio analizzati più avanti nel parlare dell'algoritmo Double Ratchet. 
-        Ad ogni modo, a livello generale, la loro combinazione permette di generare una nuova chiave. 
+        N.B. Symmetric ratchet phase e DH ratchet phase verranno meglio analizzati più avanti nel parlare dell'algoritmo Double Ratchet.  
     }
 \end{frame}
 
@@ -28,7 +27,7 @@
 
     Derivazione di una nuova chiave dalla chiave segreta condivisa.\newline\pause
     Se Alice invia più messaggi a Bob senza ricevere risposta ogni messaggio sarà criptato con una nuova chiave calcolata in funzione della precedente.\newline\pause
-    In questo modo solo Alice e Bob possono calcolarla (escludendo casi in cui la chiave sia stata diffusa)
+    In questo modo solo Alice e Bob possono calcolarla (escludendo casi in cui la chiave sia compromessa)
     
 \end{frame}
 
@@ -37,7 +36,7 @@
     \textbf{Diffie–Hellman ratchet phase}\newline
 
     Generazione di una nuova chiave segreta condivisa.\newline\pause
-    Se Bob invia un nuovo messaggio ad Alice genera una nuova coppia di chiavi effimere. Bob usa questa chiave per calcolarne una nuova condivisa, inviando poi la propria chiave effimera ad Alice per farle calcolare la chiave condivisa.\newline\pause
+    Se Bob invia un nuovo messaggio ad Alice genera una nuova coppia di chiavi effimere. Bob usa queste chiavi per calcolarne una nuova condivisa, inviando poi la propria chiave effimera ad Alice per farle calcolare la chiave condivisa.\newline\pause
     La chiave così calcolata verrà usata in una nuova \textit{symmetric ratchet phase} per generare nuove chiavi per i messaggi.
 
 \end{frame}

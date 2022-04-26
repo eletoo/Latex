@@ -1050,6 +1050,7 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
@@ -1258,23 +1259,23 @@ INPUT ./Sections/SIGNAL_PROTOCOL/intro.tex
 INPUT Sections/SIGNAL_PROTOCOL/intro.tex
 INPUT ./Sections/SIGNAL_PROTOCOL/intro.tex
 INPUT Sections/SIGNAL_PROTOCOL/intro.tex
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
 INPUT ./Sections/SIGNAL_PROTOCOL/working phases.tex
 INPUT Sections/SIGNAL_PROTOCOL/working phases.tex
 INPUT ./Sections/SIGNAL_PROTOCOL/working phases.tex
 INPUT Sections/SIGNAL_PROTOCOL/working phases.tex
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
 INPUT ./Sections/SIGNAL_PROTOCOL/baseAlgorithms.tex
 INPUT Sections/SIGNAL_PROTOCOL/baseAlgorithms.tex
@@ -1315,20 +1316,36 @@ INPUT ./Sections/SIGNAL_PROTOCOL/flaws.tex
 INPUT Sections/SIGNAL_PROTOCOL/flaws.tex
 INPUT ./Sections/SIGNAL_PROTOCOL/flaws.tex
 INPUT Sections/SIGNAL_PROTOCOL/flaws.tex
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmssi9.tfm
-INPUT ./Sections/SIGNAL_PROTOCOL/considerations.tex
-INPUT Sections/SIGNAL_PROTOCOL/considerations.tex
-INPUT ./Sections/SIGNAL_PROTOCOL/considerations.tex
-INPUT Sections/SIGNAL_PROTOCOL/considerations.tex
 INPUT ./Sections/SIGNAL_PROTOCOL/whatsappVSsignalVStelegram.tex
 INPUT Sections/SIGNAL_PROTOCOL/whatsappVSsignalVStelegram.tex
 INPUT ./Sections/SIGNAL_PROTOCOL/whatsappVSsignalVStelegram.tex
 INPUT Sections/SIGNAL_PROTOCOL/whatsappVSsignalVStelegram.tex
+INPUT ./Sections/SIGNAL_PROTOCOL/comparison/signal.tex
+INPUT Sections/SIGNAL_PROTOCOL/comparison/signal.tex
+INPUT ./Sections/SIGNAL_PROTOCOL/comparison/signal.tex
+INPUT Sections/SIGNAL_PROTOCOL/comparison/signal.tex
+INPUT ./Sections/SIGNAL_PROTOCOL/comparison/whatsapp.tex
+INPUT Sections/SIGNAL_PROTOCOL/comparison/whatsapp.tex
+INPUT ./Sections/SIGNAL_PROTOCOL/comparison/whatsapp.tex
+INPUT Sections/SIGNAL_PROTOCOL/comparison/whatsapp.tex
+INPUT ./images//whatsapp session initiation.png
+INPUT ./images//whatsapp session initiation.png
+INPUT images//whatsapp session initiation.png
+INPUT ./images//whatsapp session initiation.png
+INPUT ./images//whatsapp session initiation.png
+INPUT ./images//whatsapp session initiation.png
+INPUT ./images//whatsapp session initiation.png
+INPUT images//whatsapp session initiation.png
+INPUT ./images//whatsapp session initiation.png
+INPUT ./Sections/SIGNAL_PROTOCOL/comparison/telegram.tex
+INPUT Sections/SIGNAL_PROTOCOL/comparison/telegram.tex
+INPUT ./Sections/SIGNAL_PROTOCOL/comparison/telegram.tex
+INPUT Sections/SIGNAL_PROTOCOL/comparison/telegram.tex
+INPUT ./images//mtproto.png
+INPUT ./images//mtproto.png
+INPUT images//mtproto.png
+INPUT ./images//mtproto.png
+INPUT ./images//mtproto.png
 INPUT texout/presentation.bbl
 INPUT texout/presentation.bbl
 INPUT texout/presentation.bbl

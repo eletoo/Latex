@@ -1,123 +1,94 @@
-\newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{CGCD{\etalchar{+}}17}
+\begin{thebibliography}{10}
 
-\bibitem[CGCD{\etalchar{+}}17]{7961996}
-Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt, and Douglas
-  Stebila.
-\newblock A formal security analysis of the signal messaging protocol.
-\newblock In {\em 2017 IEEE European Symposium on Security and Privacy (EuroS
-  P)}, pages 451--466, 2017.
+\bibitem{Lumb}
+D.~J. Lumb, ``The story of signal,'' {\em Increment}, no.~7, 2018, October.
 
-\bibitem[DH76]{diffiehellman}
-W~Diffie and M~Hellman.
-\newblock New directions in cryptography.
-\newblock In {\em IEEE Transactions on Information Theory}, pages 644--654,
-  1976.
+\bibitem{greenberg}
+A.~Greenberg, ``Hacker lexicon: What is the signal encryption protocol?,''
+  2020, November 29.
 
-\bibitem[EPP 1]{telegramE2EE}
-CPJ~Middle East, North~Africa Program, and CPJ~Technology Program.
-\newblock Why telegram's security flaws may put iran's journalists at risk -
-  committee to protect journalists.
-\newblock 2016, May 1.
+\bibitem{whatsappE2EE}
+M.~Marlinspike, ``Whatsapp's signal protocol integration is now complete,''
+  Apr. 5, 2016.
 
-\bibitem[FMB{\etalchar{+}}16]{7467371}
-Tilman Frosch, Christian Mainka, Christoph Bader, Florian Bergsma, Jörg
-  Schwenk, and Thorsten Holz.
-\newblock How secure is textsecure?
-\newblock In {\em 2016 IEEE European Symposium on Security and Privacy (EuroS
-  P)}, pages 457--472, 2016.
+\bibitem{greenbergE2EE}
+A.~Greenberg, ``Hacker lexicon: What is end-to-end encryption?,'' 2014,
+  November 15.
 
-\bibitem[GM13]{Snowden}
-Barton Gellman and Jerry Markon.
-\newblock Edward snowden says motive behind leaks was to expose ‘surveillance
-  state’.
-\newblock {\em The Washington Post}, June 10, 2013.
+\bibitem{IBM}
+``Cos'è la e2ee (end-to-end encryption)?,''
 
-\bibitem[Gra 7]{lavabitAndHushmail}
-Yael Grauer.
-\newblock Mr. robot uses protonmail, but it still isn't fully secure.
-\newblock 2015, October 7.
+\bibitem{lavabitAndHushmail}
+Y.~Grauer, ``Mr. robot uses protonmail, but it still isn't fully secure,''
+  2015, October 7.
 
-\bibitem[Gre15]{greenbergE2EE}
-Andy Greenberg.
-\newblock Hacker lexicon: What is end-to-end encryption?
-\newblock 2014, November 15.
+\bibitem{snowdenCase}
+K.~Poulsen, ``Snowden's email provider loses appeal over encryption keys,''
+  2014, April 16.
 
-\bibitem[Gre29]{greenberg}
-Andy Greenberg.
-\newblock Hacker lexicon: What is the signal encryption protocol?
-\newblock 2020, November 29.
+\bibitem{Snowden}
+B.~Gellman and J.~Markon, ``Edward snowden says motive behind leaks was to
+  expose ‘surveillance state’,'' {\em The Washington Post}, June 10, 2013.
 
-\bibitem[IBM]{IBM}
-Cos'è la e2ee (end-to-end encryption)?
+\bibitem{hushmail}
+R.~Singel, ``Encrypted e-mail company hushmail spills to feds,'' 2007, November
+  7.
 
-\bibitem[int20]{intransitEncryption}
-Cryptography concepts - fundamentals - e3kit | virgil security.
-\newblock 2020.
+\bibitem{telegramE2EE}
+C.~M. East, N.~A. Program, and C.~T. Program, ``Why telegram's security flaws
+  may put iran's journalists at risk - committee to protect journalists,''
+  2016, May 1.
 
-\bibitem[JD16]{diffiehellman2}
-B~Jacobs and J~Daemen.
-\newblock Computer security: Public key crypto.
-\newblock 2016.
+\bibitem{intransitEncryption}
+``Cryptography concepts - fundamentals - e3kit | virgil security,'' 2020.
 
-\bibitem[KE10]{KDF}
-Hugo Krawczyk and Pasi Eronen.
-\newblock Hmac-based extract-and-expand key derivation function (hkdf)’.
-\newblock 2010.
+\bibitem{techTarget}
+B.~Lutkevich and M.~Bacon, ``end-to-end encryption (e2ee),'' June 2021.
 
-\bibitem[LB21]{techTarget}
-Ben Lutkevich and Madelyn Bacon.
-\newblock end-to-end encryption (e2ee).
-\newblock June 2021.
+\bibitem{signal}
+``Signal documentation,''
 
-\bibitem[Lumer]{Lumb}
-David~J Lumb.
-\newblock The story of signal.
-\newblock {\em Increment}, (7), 2018, October.
+\bibitem{VanDam}
+D.~Van~Dam, ``Analysing the signal protocol - a manual and automated analysis
+  of the signal protocol,'' Master's thesis, Radboud University, 2019.
 
-\bibitem[Mar16]{whatsappE2EE}
-Moxie Marlinspike.
-\newblock Whatsapp's signal protocol integration is now complete.
-\newblock Apr. 5, 2016.
+\bibitem{X3DH}
+M.~Marlinspike and T.~Perrin, ``The x3dh key agreement protocol,'' tech. rep.,
+  Open Whisper Systems, 2016.
 
-\bibitem[MP16a]{doubleratchet}
-Moxie Marlinspike and Trevor Perrin.
-\newblock The double ratchet algorithm.
-\newblock Technical report, Open Whisper Systems, 2016.
+\bibitem{diffiehellman}
+W.~Diffie and M.~Hellman, ``New directions in cryptography,'' in {\em IEEE
+  Transactions on Information Theory}, pp.~644--654, 1976.
 
-\bibitem[MP16b]{X3DH}
-Moxie Marlinspike and Trevor Perrin.
-\newblock The x3dh key agreement protocol.
-\newblock Technical report, Open Whisper Systems, 2016.
+\bibitem{diffiehellman2}
+B.~Jacobs and J.~Daemen, ``Computer security: Public key crypto,'' 2016.
 
-\bibitem[MP17]{sesame}
-Moxie Marlinspike and Trevor Perrin.
-\newblock The sesame algorithm: Session management for asynchronous message
-  encryption.
-\newblock Technical report, Open Whisper Systems, 2017.
+\bibitem{KDF}
+H.~Krawczyk and P.~Eronen, ``Hmac-based extract-and-expand key derivation
+  function (hkdf)’,'' 2010.
 
-\bibitem[Pou]{doubleratchetVid}
-Mike Pound.
-\newblock Double ratchet messaging encryption - computerphile.
-\newblock Video.
+\bibitem{doubleratchet}
+M.~Marlinspike and T.~Perrin, ``The double ratchet algorithm,'' tech. rep.,
+  Open Whisper Systems, 2016.
 
-\bibitem[Pou16]{snowdenCase}
-K~Poulsen.
-\newblock Snowden's email provider loses appeal over encryption keys.
-\newblock 2014, April 16.
+\bibitem{doubleratchetVid}
+M.~Pound, ``Double ratchet messaging encryption - computerphile.'' Video.
 
-\bibitem[sig]{signal}
-Signal documentation.
+\bibitem{sesame}
+M.~Marlinspike and T.~Perrin, ``The sesame algorithm: Session management for
+  asynchronous message encryption,'' tech. rep., Open Whisper Systems, 2017.
 
-\bibitem[Sin 7]{hushmail}
-Ryan Singel.
-\newblock Encrypted e-mail company hushmail spills to feds.
-\newblock 2007, November 7.
+\bibitem{7467371}
+T.~Frosch, C.~Mainka, C.~Bader, F.~Bergsma, J.~Schwenk, and T.~Holz, ``How
+  secure is textsecure?,'' in {\em 2016 IEEE European Symposium on Security and
+  Privacy (EuroS P)}, pp.~457--472, 2016.
 
-\bibitem[VD19]{VanDam}
-Dion Van~Dam.
-\newblock Analysing the signal protocol - a manual and automated analysis of
-  the signal protocol.
-\newblock Master's thesis, Radboud University, 2019.
+\bibitem{7961996}
+K.~Cohn-Gordon, C.~Cremers, B.~Dowling, L.~Garratt, and D.~Stebila, ``A formal
+  security analysis of the signal messaging protocol,'' in {\em 2017 IEEE
+  European Symposium on Security and Privacy (EuroS P)}, pp.~451--466, 2017.
+
+\bibitem{telegramdoc}
+Telegram.org, ``Mtproto mobile protocol. core.,''
 
 \end{thebibliography}

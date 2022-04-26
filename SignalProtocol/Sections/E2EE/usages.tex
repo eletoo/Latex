@@ -5,18 +5,22 @@
 
     \begin{itemize}
         \item \textbf{Comunicazioni sicure}: applicazioni di messaggistica e posta elettronica per mantenere private le conversazioni degli utenti;\pause
-        \item \textbf{Gestione password}: in questo caso a entrambi gli endpoint della comunicazione si trova lo stesso utente, che è l'unica persona munita di chiave;\pause
-        \item \textbf{Data storage}: nei servizi di storage in cloud può anche essere garantita E2EE \textit{in transit}, proteggendo i dati degli utenti anche dall'accesso da parte dei fornitori del servizio in cloud;
+        \item \textbf{Gestione password}: a entrambi gli endpoint della comunicazione si trova lo stesso utente, l'unica persona munita di chiave;\pause
+        \item \textbf{Data storage}: nei servizi di storage in cloud può anche essere garantita E2EE \textit{in transit}, proteggendo i dati degli utenti anche dall'accesso da parte dei fornitori del servizio in cloud.
     \end{itemize}
 
     \cite{IBM}
     
     \note{
-        Alcuni sistemi, come ad esempio Lavabit e Hushmail, hanno in passato dichiarato di implementare la crittografia end-to-end nonostante ciò non fosse vero. \cite{lavabitAndHushmail} \newline
+        Alcuni sistemi, come ad esempio Lavabit e Hushmail, hanno in passato dichiarato di implementare la crittografia end-to-end nonostante ciò non fosse vero. \cite{lavabitAndHushmail} 
+
         Lavabit, servizio email in passato ritenuto sicuro e oggi non più attivo, nel 2014 consegnò al governo americano le chiavi che utilizzava per proteggere i dati dei propri utenti in occasione delle indagini sul caso Snowden. 
-        La controversia nacque dal fatto che la compagnia aveva in precedenza dichiarato che il proprio livello di sicurezza era tale che nemmeno gli amministratori della compagnia stessa avevano accesso al contenuto delle mail scambiate dai propri utenti. \cite{snowdenCase}, \cite{Snowden}\newline
-        Hushmail, altro email provider dichiarato sicuro, violò la privacy dei propri utenti utilizzandone le password per decrittare le email e consegnarle al governo federale in \textit{plaintext}. \cite{hushmail}\newline
-        Altri sistemi, come per esempio Telegram, non implementano la crittografia end-to-end di default e sono pertanto stati criticati. \newline
-        In modo particolare Telegram non la implementa né per le chat di gruppo né per i client desktop. Tra le altre critiche mosse all'applicazione c'è quella di utilizzare il protocollo di crittografia non standard MTProto. \cite{telegramE2EE}
+        La compagnia aveva in precedenza dichiarato che il proprio livello di sicurezza era tale che nemmeno gli amministratori avevano accesso al contenuto delle mail scambiate dai propri utenti. \cite{snowdenCase}, \cite{Snowden}
+
+        Hushmail, altro email provider dichiarato sicuro, utilizzò le password dei propri utenti per decrittare le email e consegnarle al governo federale in \textit{plaintext}. \cite{hushmail}
+
+        Altri sistemi, come per esempio Telegram, non implementano la crittografia end-to-end di default e sono pertanto stati criticati. 
+
+        In modo particolare Telegram non la implementa né per le chat di gruppo né per i client desktop, oltre al fatto che utilizza il protocollo di crittografia non standard MTProto. \cite{telegramE2EE}
     }
 \end{frame}

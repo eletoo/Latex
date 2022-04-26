@@ -26,10 +26,8 @@
 
 \begin{frame}{Signal Protocol}
     \framesubtitle{Il protocollo: Double Ratchet}
-    %L'algoritmo Double Ratchet è suddivisibile in due ``fasi'': \textbf{DH ratchet} e \textbf{symmetric-key ratchet}.\newline
-
     Combinando una catena KDF con un DH ratchet otteniamo un algoritmo Double ratchet che garantisce sia \textit{forward secrecy} che \textit{future secrecy}. \newline\pause
-    DH ratchet infatti modifica gli input delle KDF in modo tale che, se anche una chiave venisse recuperata da terzi, si sia in grado di ristabilire la segretezza dall'applicazione successiva di una KDF.\newline
+    DH ratchet infatti modifica gli input delle KDF in modo tale che, se anche una chiave venisse compromessa, si sia in grado di ristabilire la segretezza dall'applicazione successiva di una KDF.\newline
 \end{frame}
 
 \begin{frame}{Signal Protocol}

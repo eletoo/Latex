@@ -1,0 +1,49 @@
+\begin{frame}{Signal VS WhatsApp VS Telegram}
+    \framesubtitle{Signal}
+    
+    \textbf{Pro}
+    \begin{itemize}
+        \item Team indipendente no profit: non vende dati utente per scopi di marketing
+        \item Open-source
+        \item Interfaccia personalizzabile
+        \item Crittografia end-to-end (anche sui metadati)
+        \item Implementa il protocollo Signal
+    \end{itemize}\pause
+
+    \textbf{Contro}
+    \begin{itemize}
+        \item Limite dimensioni file a 100MB
+    \end{itemize}
+
+    \note{
+        Informazioni raccolte: numero di telefono\\Sono in via di sviluppo nuove versioni dell'applicazione che non lo richiedano. 
+    }
+\end{frame}
+
+\begin{frame}{Signal VS WhatsApp VS Telegram}
+    \framesubtitle{Signal}
+    L'applicazione Signal implementa il protocollo omonimo basandosi sulle librerie open-source:
+    \href{https://github.com/signalapp}{GitHub - Signal App}\newline\pause
+    Le versioni per iOS e Android sono strutturate su più livelli:
+    \begin{itemize}
+        \item Cryptographic functions layer
+        \item Protocol library layer
+        \item Service layer
+    \end{itemize}\pause
+    La versione desktop può essere utilizzata solo in associazione a un dispositivo Android o iOS.
+
+    \note{
+        Dal livello più basso al più alto: 
+        \begin{itemize}
+            \item Cryptographic functions layer: implementazione delle funzioni crittografiche
+            \item Protocol library layer: usa le funzioni del livello crittografico per implementare il protocollo
+            \item Service layer: combina le funzioni del livello protocollo per consentire di intraprendere effettivamente le conversazioni. 
+        \end{itemize}
+
+        VERSIONE DESKTOP: \newline
+        All'installazione l'applicazione desktop genera una coppia di chiavi: la chiave pubblica viene presentata come QR code da scannerizzare con l'applicazione mobile. Lo smartphone crittografa l'identity key con la chiave pubblica del client desktop e la comunica al server Signal. \\
+        Da questo momento l'applicazione desktop può essere usata anche se quella mobile non è in funzione.\newline
+
+        \cite{VanDam}
+    }
+\end{frame}

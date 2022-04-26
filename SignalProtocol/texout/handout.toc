@@ -1,14 +1,13 @@
-\beamer@sectionintoc {1}{Sommario}{2}{0}{1}
-\beamer@sectionintoc {2}{Applicazione Signal}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Storia dell'Applicazione}{5}{0}{2}
-\beamer@subsectionintoc {2}{2}{L'Applicazione e il Protocollo Signal}{8}{0}{2}
-\beamer@sectionintoc {3}{Crittografia End-to-End}{12}{0}{3}
-\beamer@subsectionintoc {3}{1}{Applicazioni}{16}{0}{3}
-\beamer@subsectionintoc {3}{2}{Problematiche}{17}{0}{3}
-\beamer@sectionintoc {4}{Signal Protocol}{20}{0}{4}
-\beamer@subsectionintoc {4}{1}{Proprietà}{21}{0}{4}
-\beamer@subsectionintoc {4}{2}{Il protocollo}{23}{0}{4}
-\beamer@subsectionintoc {4}{3}{Difetti di progettazione}{39}{0}{4}
-\beamer@subsectionintoc {4}{4}{Considerazioni}{42}{0}{4}
-\beamer@subsectionintoc {4}{5}{WhatsApp VS Signal VS Telegram}{43}{0}{4}
-\beamer@sectionintoc {5}{Bibliografia}{43}{0}{5}
+\beamer@sectionintoc {1}{Sommario}{1}{0}{1}
+\beamer@sectionintoc {2}{Applicazione Signal}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Storia dell'Applicazione}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{L'Applicazione e il Protocollo Signal}{7}{0}{2}
+\beamer@sectionintoc {3}{Crittografia End-to-End}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Applicazioni}{15}{0}{3}
+\beamer@subsectionintoc {3}{2}{Problematiche}{16}{0}{3}
+\beamer@sectionintoc {4}{Signal Protocol}{19}{0}{4}
+\beamer@subsectionintoc {4}{1}{Proprietà}{20}{0}{4}
+\beamer@subsectionintoc {4}{2}{Il protocollo}{22}{0}{4}
+\beamer@subsectionintoc {4}{3}{Difetti di progettazione}{38}{0}{4}
+\beamer@subsectionintoc {4}{4}{Signal VS WhatsApp VS Telegram}{41}{0}{4}
+\beamer@sectionintoc {5}{Bibliografia}{48}{0}{5}

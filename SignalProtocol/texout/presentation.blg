@@ -1,69 +1,67 @@
 This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: presentation.aux
-The style file: alpha.bst
+The style file: ieeetr.bst
 Database file #1: texmf/bibtex/bib/references.bib
-Warning--to sort, need author or key in IBM
-Warning--to sort, need author or key in intransitEncryption
-Warning--to sort, need author or key in signal
-Warning--empty journal in telegramE2EE
-Warning--empty journal in lavabitAndHushmail
-Warning--empty journal in greenbergE2EE
 Warning--empty journal in greenberg
+Warning--empty journal in whatsappE2EE
+Warning--empty journal in greenbergE2EE
 Warning--empty author in IBM
 Warning--empty journal in IBM
 Warning--empty year in IBM
+Warning--empty journal in lavabitAndHushmail
+Warning--empty journal in snowdenCase
+Warning--empty journal in hushmail
+Warning--empty journal in telegramE2EE
 Warning--empty author in intransitEncryption
 Warning--empty journal in intransitEncryption
-Warning--empty booktitle in diffiehellman2
-Warning--empty journal in KDF
 Warning--empty journal in techTarget
-Warning--there's a number but no volume in Lumb
-Warning--empty journal in whatsappE2EE
-Warning--empty journal in snowdenCase
 Warning--empty author in signal
 Warning--empty journal in signal
 Warning--empty year in signal
-Warning--empty journal in hushmail
-You've used 23 entries,
-            2543 wiz_defined-function locations,
-            665 strings with 6974 characters,
-and the built_in function-call counts, 7438 in all, are:
-= -- 719
-> -- 327
-< -- 12
-+ -- 109
-- -- 103
-* -- 453
-:= -- 1237
-add.period$ -- 64
-call.type$ -- 23
-change.case$ -- 134
-chr.to.int$ -- 22
-cite$ -- 48
-duplicate$ -- 339
-empty$ -- 545
-format.name$ -- 129
-if$ -- 1505
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 18
-newline$ -- 114
-num.names$ -- 60
-pop$ -- 166
+Warning--empty booktitle in diffiehellman2
+Warning--empty journal in KDF
+Warning--empty journal in telegramdoc
+Warning--empty year in telegramdoc
+You've used 24 entries,
+            1876 wiz_defined-function locations,
+            587 strings with 6058 characters,
+and the built_in function-call counts, 3919 in all, are:
+= -- 319
+> -- 155
+< -- 0
++ -- 64
+- -- 40
+* -- 248
+:= -- 599
+add.period$ -- 21
+call.type$ -- 24
+change.case$ -- 27
+chr.to.int$ -- 0
+cite$ -- 44
+duplicate$ -- 238
+empty$ -- 454
+format.name$ -- 40
+if$ -- 923
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 19
+newline$ -- 75
+num.names$ -- 21
+pop$ -- 134
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 0
 quote$ -- 0
-skip$ -- 290
+skip$ -- 82
 stack$ -- 0
-substring$ -- 253
-swap$ -- 37
-text.length$ -- 12
-text.prefix$ -- 8
+substring$ -- 84
+swap$ -- 29
+text.length$ -- 0
+text.prefix$ -- 0
 top$ -- 0
-type$ -- 184
-warning$ -- 22
-while$ -- 57
-width$ -- 28
-write$ -- 263
-(There were 22 warnings)
+type$ -- 0
+warning$ -- 20
+while$ -- 27
+width$ -- 26
+write$ -- 181
+(There were 20 warnings)

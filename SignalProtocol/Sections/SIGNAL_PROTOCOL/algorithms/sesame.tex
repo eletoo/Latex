@@ -10,10 +10,10 @@
     \note{
         Problemi che si possono generare:
         \begin{itemize}
-            \item Alice e Bob possono avere ognuno più dispositivi quindi l'invio di un messaggio da parte di Alice richiede di inviarne una copia a tutti i dispositivi di Bob e a tutti i dispositivi di Alice per conoscenza.
+            \item Alice e Bob possono avere ognuno più dispositivi quindi l'invio di un messaggio da parte di Alice richiede di inviarne una copia a tutti i dispositivi di Bob e a tutti i dispositivi di Alice.
             \item Alice e Bob possono aggiungere o rimuovere dispositivi, iniziando o terminando delle sessioni.
-            \item Alice e Bob possono iniziare una nuova sessione allo stesso tempo, così che si ottengano due sessioni. Per un funzionamento ottimale del Double Ratchet Alice e Bob devono usare la stessa sessione, quindi devono concordare su quella da utilizzare.
-            \item Alice può resettare lo stato della sessione sul suo dispositivo o impostarla tramite backup, richiedendo a Bob di concordare nuovamente sulla sessione da utilizzare.
+            \item Alice e Bob possono iniziare una nuova sessione allo stesso tempo. Per il funzionamento del Double Ratchet Alice e Bob devono usare la stessa sessione, quindi devono concordare su quella da utilizzare.
+            \item Alice può resettare lo stato della sessione sul suo dispositivo, richiedendo a Bob di concordare nuovamente sulla sessione da utilizzare.
         \end{itemize}
     }
 \end{frame}
@@ -23,8 +23,8 @@
     Sesame è stato progettato per l'uso attraverso sessioni Double Ratchet create attraverso scambio di chiavi X3DH.
 
     \begin{itemize}
-        \item I dispositivi comunicano al server le proprie \textit{one-time pre keys}, \textit{signed pre keys} e \textit{identity public key}.\pause
-        \item Il dispositivo mittente recupera dal server la \textit{identity public key} del dispositivo destinatario, \textit{signed pre keys} e una \textit{one-time pre key} se disponibile.\pause
+        \item I dispositivi comunicano al server le proprie \textit{one-time pre-keys}, \textit{signed pre-keys} e \textit{identity public key}.\pause
+        \item Il dispositivo mittente recupera dal server la \textit{identity public key} del dispositivo destinatario, \textit{signed pre-keys} e una \textit{one-time pre-key} se disponibile.\pause
         \item X3DH usa queste chiavi per creare sia una chiave segreta che apre una sessione Double Ratchet sia un messaggio iniziale X3DH.
     \end{itemize}    
 

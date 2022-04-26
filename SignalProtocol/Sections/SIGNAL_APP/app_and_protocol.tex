@@ -5,18 +5,18 @@
     
     Nel 2013, dopo la fondazione di OWS, i fondatori Marlinspike e Trevor Perrin iniziarono a lavorare al \textbf{Protocollo Signal}.\newline\pause
     
-    Esso rendeva il metodo crittografico end-to-end utilizzato nell’applicazione Signal implementabile anche da altri servizi.\newline\pause
+    Esso rendeva il metodo crittografico end-to-end utilizzato nell’applicazione implementabile anche da altri servizi.\newline\pause
     
-    Ogni piattaforma di messaggistica che intraprese collaborazioni con OWS al fine di integrare il protocollo Signal al proprio interno lo implementò in modalità differenti e su scala/estensione diversa.
+    Ogni piattaforma di messaggistica che intraprese collaborazioni con OWS al fine di integrare il protocollo al proprio interno lo implementò in modalità differenti e su scala/estensione diversa.
 
 \end{frame}
 
 \begin{frame}{Applicazione Signal}
     \framesubtitle{L'Applicazione e il Protocollo Signal}
-    Tra le più note implementazioni (parziali) del Protocollo Signal troviamo:\pause
+    Tra le più note implementazioni (parziali) del protocollo troviamo:\pause
     \begin{itemize}
         \item <1-> \textbf{Facebook}: introdusse la feature \textit{Secret Conversations} per gli utenti di Facebook Messenger nel luglio 2016\pause
-        \item <2-> \textbf{Allo}: rilasciata nel settembre 2016, sfruttava il Protocollo Signal se utilizzata in modalità incognito\pause
+        \item <2-> \textbf{Allo}: rilasciata nel settembre 2016, sfruttava il protocollo se utilizzata in modalità incognito\pause
         \item <3-> \textbf{Duo}: protezione delle videochat\pause
         \item <4-> \textbf{Skype}: conversazioni private dal 2018\pause
         \item <5-> \textbf{WhatsApp}: tra le maggiori applicazioni che implementano Signal è l’unica che garantisce di default la crittografia end-to-end delle conversazioni (da aprile 2016)
@@ -44,7 +44,8 @@
     \cite{whatsappE2EE}
 
     \note{
-        La dichiarazione delle conversazioni come “private” avviene in genere per selezione esplicita da parte dell'utente e non di default.\newline
+        La dichiarazione delle conversazioni come “private” avviene in genere per selezione esplicita da parte dell'utente e non di default.
+
         WhatsApp implementa automaticamente la crittografia end-to-end sia per le chat private che per quelle di gruppo, tuttavia se si vuole verificare che le conversazioni siano private è necessario che entrambe le persone che partecipano alla conversazione selezionino la chat di interesse, clicchino sul nome del contatto, selezionino l'opzione “Crittografia” e scannerizzino il codice QR che viene presentato sul dispositivo dell'altro utente oppure confrontino i numeri a 60 cifre presentati.\newline
     }
 \end{frame}

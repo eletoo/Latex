@@ -1,0 +1,12 @@
+@startuml
+autonumber
+Client -> Server: pre-key bundle request
+
+alt non-empty opk set
+    Server --> Client: pre-key bundle response
+    Server -> Server: used opk removal
+else empty opk set
+    Server --> Client: pre-key bundle response without opk
+end
+@enduml
+
